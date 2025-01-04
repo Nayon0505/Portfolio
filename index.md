@@ -6,9 +6,14 @@ Willkommen auf meinem Portfolio! Hier findest sie eine Übersicht über meine er
 
 ## 📜 Zertifikate
 
+!!! info "ℹ️ Info"
+    Auf einigen meiner Zertifikate erscheint der Name „soeker23“, anstatt meines richtigen Namens. Dies liegt daran, dass ich einige Dienste über meinen Studentenaccount kostenlos nutzen konnte.
 
 **ℹ️ Info**  
 Auf einigen meiner Zertifikate erscheint der Name „soeker23“, anstatt meines richtigen Namens. Dies liegt daran, dass ich einige Dienste über meinen Studentenaccount kostenlos nutzen konnte.
+
+> ℹ️ **Info**  
+> Auf einigen meiner Zertifikate erscheint der Name „soeker23“, anstatt meines richtigen Namens. Dies liegt daran, dass ich einige Dienste über meinen Studentenaccount kostenlos nutzen konnte.
 
 
 ### Google Cybersecurity Certificate
