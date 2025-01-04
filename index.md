@@ -11,7 +11,7 @@ Willkommen auf meinem Portfolio! Hier findest sie eine Übersicht über meine er
 - **Erwerbsdatum:** Oktober 2024  
 - **Beschreibung:** 
   Im Rahmen des Zertifikats habe ich ein umfassendes Verständnis für die Bedeutung von Cybersicherheitspraktiken und deren Auswirkungen auf Organisationen erlangt. Ich habe gelernt, häufige Risiken, Bedrohungen und Schwachstellen zu identifizieren und effektive Maßnahmen zu deren Bekämpfung einzuleiten. Dabei lag ein besonderer Fokus auf dem Schutz von Netzwerken, Geräten, Personen und Daten vor unbefugtem Zugriff und Cyberangriffen unter Einsatz von Security Information and Event Management (SIEM)-Tools. Darüber hinaus konnte ich praktische Erfahrungen in den Bereichen Python, Linux und SQL sammeln, die meine Fähigkeiten im Umgang mit IT-Systemen und der Datenanalyse weiter vertieft haben.  
-- <embed src="./Coursera_Google_Cybersecurity.pdf" type="application/pdf" width="100%" height="600px">
+- [📄 Google Cybersecurity Certificate ansehen](./Portfolio/Coursera%20Google%20Cybersecurity.pdf)
 - [📄 Zertifikat ansehen](https://www.coursera.org/account/accomplishments/professional-cert/EOT0DOLTUCKL)
 
 
@@ -21,7 +21,8 @@ Willkommen auf meinem Portfolio! Hier findest sie eine Übersicht über meine er
 - **Erwerbsdatum:** Januar 2024  
 - **Beschreibung:** 
   Einführung in die Datenanalyse mit Python, inklusive Bibliotheken wie Pandas, NumPy und Matplotlib. Fokus auf praxisnahe Datenprojekte.  
-- <embed src="./Certificate_Introduction_to_Python.pdf" type="application/pdf" width="100%" height="600px">
+- [📄 Google Cybersecurity Certificate ansehen](./Portfolio/certificate%20Introduction%20to%20Python.pdf)
+
 
 ---
 
