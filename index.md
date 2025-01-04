@@ -15,12 +15,67 @@ Willkommen auf meinem Portfolio! Hier findest sie eine Übersicht über meine er
 
 
 
-### Python for Data Science
+### Python Introduction
 - **Ausgestellt von:** Datacamp  
 - **Erwerbsdatum:** Januar 2024  
 - **Beschreibung:** 
-  Einführung in die Datenanalyse mit Python, inklusive Bibliotheken wie Pandas, NumPy und Matplotlib. Fokus auf praxisnahe Datenprojekte.  
 - [📄 Zertifikat ansehen](https://github.com/Emircan1122/Portfolio/blob/main/certificate%20Introduction%20to%20Python.pdf)
+
+
+### Python Intermediate
+- **Ausgestellt von:** Datacamp  
+- **Erwerbsdatum:** Oktober 2024  
+- **Beschreibung:** 
+- [📄 Zertifikat ansehen](https://github.com/Emircan1122/Portfolio/blob/main/certificate%20Intermediate%20Python.pdf)
+
+
+### Introduction to SQL
+- **Ausgestellt von:** Datacamp  
+- **Erwerbsdatum:** Januar 2024  
+- **Beschreibung:** 
+- [📄 Zertifikat ansehen](https://github.com/Emircan1122/Portfolio/blob/main/certificate%20Introduction%20to%20SQL.pdf)
+
+
+### Understanding Data Science
+- **Ausgestellt von:** Datacamp  
+- **Erwerbsdatum:** Januar 2024  
+- **Beschreibung:** 
+- [📄 Zertifikat ansehen](https://github.com/Emircan1122/Portfolio/blob/main/certificate%20Understanding%20Data%20Science.pdf)
+
+
+### Data Manipulation with pandas
+- **Ausgestellt von:** Datacamp  
+- **Erwerbsdatum:** Oktober 2024  
+- **Beschreibung:** 
+- [📄 Zertifikat ansehen](https://github.com/Emircan1122/Portfolio/blob/main/certificate%20Data%20Manipulation%20with%20pandas.pdf)
+
+
+### Introduction to Data Science in Python
+- **Ausgestellt von:** Datacamp  
+- **Erwerbsdatum:** Januar 2024  
+- **Beschreibung:** 
+- [📄 Zertifikat ansehen](https://github.com/Emircan1122/Portfolio/blob/main/certificate%20Introduction%20to%20Data%20Science&20in%20Python.pdf)
+
+
+### Data Analysis in Excel
+- **Ausgestellt von:** Datacamp  
+- **Erwerbsdatum:** Januar 2024  
+- **Beschreibung:** 
+- [📄 Zertifikat ansehen](https://github.com/Emircan1122/Portfolio/blob/main/certificate%20Data%20Analysis%20in%20Excel.pdf)
+
+
+### Introduction to Google Sheets
+- **Ausgestellt von:** Datacamp  
+- **Erwerbsdatum:** Januar 2024  
+- **Beschreibung:** 
+- [📄 Zertifikat ansehen](https://github.com/Emircan1122/Portfolio/blob/main/certificate%20Introduction%20to%20Google%20Sheets.pdf)
+
+
+### Introduction to R
+- **Ausgestellt von:** Datacamp  
+- **Erwerbsdatum:** Januar 2024  
+- **Beschreibung:** 
+- [📄 Zertifikat ansehen](https://github.com/Emircan1122/Portfolio/blob/main/certificate%20Introduction%20to%20R.pdf)
 
 ---
 
