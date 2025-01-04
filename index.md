@@ -1,6 +1,6 @@
 # Anil's Portfolio
 
-Willkommen auf meinem Portfolio! Hier findest Sie eine Übersicht über meine erworbenen Zertifikate.  
+Willkommen auf meinem Portfolio! Hier findest Sie eine Übersicht über meine erworbenen Zertifikate .  
 
 ---
 
@@ -11,7 +11,7 @@ Willkommen auf meinem Portfolio! Hier findest Sie eine Übersicht über meine er
 > {: .info }
 Auf einigen meiner Zertifikate erscheint der Name „soeker23“, anstatt meines richtigen Namens. Dies liegt daran, dass ich einige Dienste über meinen Studentenaccount kostenlos nutzen konnte.
 
-### Google Cybersecurity Certificate
+### Google Cybersecurity 
 - **Ausgestellt von:** Google/Coursera  
 - **Erwerbsdatum:** Oktober 2024  
 - **Beschreibung:** 
