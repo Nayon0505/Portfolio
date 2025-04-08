@@ -8,7 +8,7 @@ nav_order: 0
 
 ---
 
-![Icon](/assets/images/Icon_MountanKeys.png)
+![Icon](/assets/images/Icon_MountainKeys.png)
 
 ---
 
