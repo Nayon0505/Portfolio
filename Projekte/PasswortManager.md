@@ -8,7 +8,7 @@ nav_order: 0
 
 ---
 
-<img src="/assets/Icon_MountanKeys.png" alt="Icon">
+![Icon](assets/images/Icon_MountanKeys.png)
 
 ---
 
@@ -18,4 +18,5 @@ In den Folgenden abschnitten bekommen Sie einen kleinen Einblick.
 
 
 ---
-<img src="/assets/PasswortManager.jpg" alt="Diagramm">
+
+![Diagramm](assets/images/PasswortManager.jpg)
