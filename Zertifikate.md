@@ -1,6 +1,6 @@
 ---
-title: Home
-nav_order: 0
+title: Zertifikate
+nav_order: 1
 ---
 
 # Anil's Portfolio
