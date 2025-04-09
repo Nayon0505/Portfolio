@@ -55,15 +55,21 @@ Um ein Benutzerkonto zu erstellen, muss der Benutzer einen Nutzernamen, seine E-
 
 ## **3. Dashboard**
 
-![Diagramm]({{ site.baseurl }}/assets/images/dashboard_one.png)
-![Diagramm]({{ site.baseurl }}/assets/images/dashboard_add_pw.png)
+<div style="display: flex; justify-content: space-between; gap: 10px; margin: 20px 0;">
+  <img src="{{ site.baseurl }}/assets/images/dashboard_one.png" alt="Login" style="width: 48%;">
+  <img src="{{ site.baseurl }}/assets/images/dashboard_add_pw.png" alt="Register" style="width: 48%;">
+</div>
 
 ---
 
 ## **4. Settings**
 
-![Diagramm]({{ site.baseurl }}/assets/images/settings_verify_email.png)
 ![Diagramm]({{ site.baseurl }}/assets/images/settings_verify.png)
+
+> {: .info }
+Sobald der User seine Email verifizieren möchte, wird ihm eine E-Mail gesschickt, die wie folgt aussieht.
+
+![Diagramm]({{ site.baseurl }}/assets/images/settings_verify_email.png)
 
 ---
 
