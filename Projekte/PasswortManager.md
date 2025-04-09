@@ -28,7 +28,7 @@ Beim ersten Start muss sich der Nutzer registrieren oder anmelden. Nach erfolgre
 - Einstellungen 
 - Passwort-Generator 
 
-![Diagramm]({{ site.baseur1 }}/assets/images/PasswortManager_Diagramm.jpg)
+![Diagramm]({{ site.baseur1 }}/assets/images/PasswortManager_Diagramm.png)
 
 ---
 
@@ -38,7 +38,7 @@ Das Anmeldesystem umfasst alle erforderlichen Funktionen: Es überprüft die E-M
 
 Um ein Benutzerkonto zu erstellen, muss der Benutzer einen Nutzernamen, seine E-Mail-Adresse sowie ein gewünschtes Passwort angeben und dieses bestätigen. Erfüllen alle Angaben die festgelegten Kriterien, wird das Benutzerkonto in der Firebase-Datenbank angelegt, und der Benutzer wird automatisch zum Dashboard weitergeleitet.
 
-![Diagramm]({{ site.baseur1 }}/assets/images/login.jpg)
-![Diagramm]({{ site.baseur1 }}/assets/images/register.jpg)
+![Diagramm]({{ site.baseur1 }}/assets/images/login.png)
+![Diagramm]({{ site.baseur1 }}/assets/images/register.png)
 
 ---
