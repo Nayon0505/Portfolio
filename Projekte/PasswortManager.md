@@ -64,16 +64,21 @@ Um ein Benutzerkonto zu erstellen, muss der Benutzer einen Nutzernamen, seine E-
 
 ## **4. Settings**
 
-![Diagramm]({{ site.baseurl }}/assets/images/settings_verify.png)
+<div style="display: flex; justify-content: space-between; gap: 10px; margin: 20px 0;">
+  <img src="{{ site.baseurl }}/assets/images/settings_verify.png" alt="Login" style="width: 48%;">
+  <div>
 
 > {: .info }
-Sobald der User seine Email verifizieren möchte, wird ihm eine E-Mail gesschickt, die wie folgt aussieht.
+    Sobald der User seine Email verifizieren möchte, wird ihm eine E-Mail gesschickt, die wie folgt aussieht.
 
-![Diagramm]({{ site.baseurl }}/assets/images/settings_verify_email.png)
-
+<img src="{{ site.baseurl }}/assets/images/settings_verify_email.png" alt="Register" style="width: 48%;">
+  </div>
+</div>
 ---
 
 ## **5. Passwort Generator**
 
-![Diagramm]({{ site.baseurl }}/assets/images/pw_generator_one.png)
-![Diagramm]({{ site.baseurl }}/assets/images/pw_generator_two.png)
+<div style="display: flex; justify-content: space-between; gap: 10px; margin: 20px 0;">
+  <img src="{{ site.baseurl }}/assets/images/pw_generator_one.png" alt="Login" style="width: 48%;">
+  <img src="{{ site.baseurl }}/assets/images/pw_generator_two.png" alt="Register" style="width: 48%;">
+</div>
