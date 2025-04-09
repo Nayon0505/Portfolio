@@ -3,7 +3,7 @@ title: Zertifikate
 nav_order: 1
 ---
 
-# Anil's Portfolio
+# Zertifikate
 
 Willkommen auf meinem Portfolio! Hier findest Sie eine Übersicht über meine erworbenen Zertifikate .  
 
