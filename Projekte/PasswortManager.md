@@ -9,7 +9,6 @@ nav_order: 0
 ---
 
 ![Icon]({{ site.baseurl }}/assets/images/Icon_MountainKeys.png)
-![Diagramm]({{ site.baseurl }}/assets/images/PasswortManager_Diagramm.jpg)
 
 ---
 
