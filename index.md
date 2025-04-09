@@ -31,14 +31,10 @@ Ich bin ein leidenschaftlicher Student der Wirtschaftsinformatik mit Fokus auf C
 
 ## 📧 Kontakt
 Falls Sie Fragen haben oder mehr erfahren möchten, können Sie mich gerne kontaktieren:
-
-<div align="center" style="margin: 20px 0;">
  
 - **E-Mail:** [aniloeker@hotmail.com](mailto:aniloeker@hotmail.com)  
 - **LinkedIn:** [Anil Emircan Öker](https://www.linkedin.com/in/anil-emircan-%C3%B6ker-a2878430a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
 - **GitHub:** [Emircan1122](https://github.com/Emircan1122)
-
-</div>
 
 ---
 
