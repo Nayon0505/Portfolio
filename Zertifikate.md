@@ -81,10 +81,13 @@ Auf einigen meiner Zertifikate erscheint der Name „soeker23“, anstatt meines
 ---
 
 ## 📧 Kontakt
-Falls Sie Fragen haben oder mehr erfahren möchten, können Sie mich gerne kontaktieren:  
-- **E-Mail:** [aniloeker@hotmail.com](mailto:aniloeker@hotmail.com)  
-- **LinkedIn:** [Anil Emircan Öker](https://www.linkedin.com/in/anil-emircan-%C3%B6ker-a2878430a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
+Falls Sie Fragen haben oder mehr erfahren möchten, können Sie mich gerne kontaktieren:
+ 
+> {: .attention }
+[![Email](https://img.shields.io/badge/-aniloeker@hotmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aniloeker@hotmail.com)
+[![LinkedIn](https://img.shields.io/badge/-Anil%20Emircan%20Öker-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anil-emircan-öker-a2878430a)
+[![GitHub](https://img.shields.io/badge/-@Emircan1122-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Emircan1122)
 
----
+--- 
 
 Vielen Dank für Ihren Besuch!

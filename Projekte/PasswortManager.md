@@ -16,7 +16,18 @@ Der Name des Passwort Managers lautet MountanKey (natürlich wird Berg im Englis
 im Rahmen des Modules App Entwicklung mit Android, habe ich dieses Projekt bearbeitet.
 In den Folgenden abschnitten bekommen Sie einen kleinen Einblick.
 
-
 ---
 
-![Diagramm]({{ site.baseurl }}/assets/images/PasswortManager_Diagramm.jpg)
+## Grundstruktur der App
+
+![Diagramm]({{ site.baseur1 }}/assets/images/PasswortManager_Diagramm.jpg)
+
+Im Rahmen eines Projekts habe ich eine Android-App entwickelt, deren Backend aus insgesamt 7 Java-Klassen besteht. Für das Frontend wurden 12 XML-Dateien erstellt, die die Benutzeroberfläche gestalten.
+
+Beim ersten Start muss sich der Nutzer registrieren oder anmelden. Nach erfolgreichem Login erhält er Zugriff auf drei Hauptbereiche:
+
+- Dashboard 
+- Einstellungen 
+- Passwort-Generator 
+
+---
