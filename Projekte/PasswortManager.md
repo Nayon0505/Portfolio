@@ -20,7 +20,7 @@ In den Folgenden abschnitten bekommen Sie einen kleinen Einblick.
 
 ## Grundstruktur der App
 
-![Diagramm]({{ site.baseur1 }}/assets/images/PasswortManager_Diagramm.jpg)
+![Diagramm]({{ site.baseur2 }}/assets/images/PasswortManager_Diagramm.jpg)
 
 Im Rahmen eines Projekts habe ich eine Android-App entwickelt, deren Backend aus insgesamt 7 Java-Klassen besteht. Für das Frontend wurden 12 XML-Dateien erstellt, die die Benutzeroberfläche gestalten.
 
