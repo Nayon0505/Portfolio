@@ -17,7 +17,16 @@ In den Folgenden abschnitten bekommen Sie einen kleinen Einblick.
 
 ---
 
-## Grundstruktur der App
+<details open markdown="block">
+{: .text-delta }
+<summary>Table of contents</summary>
++ ToC
+{: toc }
+</details>
+
+---
+
+## **1. Grundstruktur der App**
 
 Im Rahmen eines Projekts habe ich eine Android-App entwickelt, deren Backend aus insgesamt 7 Java-Klassen besteht. Für das Frontend wurden 12 XML-Dateien erstellt, die die Benutzeroberfläche gestalten.
 
@@ -31,7 +40,7 @@ Beim ersten Start muss sich der Nutzer registrieren oder anmelden. Nach erfolgre
 
 ---
 
-## Login/Registrierung
+## **2. Login/Registrierung**
 
 Das Anmeldesystem umfasst alle erforderlichen Funktionen: Es überprüft die E-Mail-Adresse und das Passwort des Benutzers. Bei gültigen Anmeldedaten wird der Benutzer authentifiziert und in das Dashboard weitergeleitet. Sind die Daten ungültig, erscheint eine Fehlermeldung. Zusätzlich besteht die Möglichkeit, das Passwort bei Bedarf über einen E-Mail-Link zurückzusetzen. Falls kein Benutzerkonto existiert, kann dieses direkt im System neu angelegt werden.
 
@@ -41,4 +50,24 @@ Um ein Benutzerkonto zu erstellen, muss der Benutzer einen Nutzernamen, seine E-
   <img src="{{ site.baseurl }}/assets/images/login.png" alt="Login" style="width: 48%;">
   <img src="{{ site.baseurl }}/assets/images/register.png" alt="Register" style="width: 48%;">
 </div>
+
 ---
+
+## **3. Dashboard**
+
+![Diagramm]({{ site.baseurl }}/assets/images/dashboard_one.png)
+![Diagramm]({{ site.baseurl }}/assets/images/dashboard_add_pw.png)
+
+---
+
+## **4. Settings**
+
+![Diagramm]({{ site.baseurl }}/assets/images/settings_verify_email.png)
+![Diagramm]({{ site.baseurl }}/assets/images/settings_verify.png)
+
+---
+
+## **5. Passwort Generator**
+
+![Diagramm]({{ site.baseurl }}/assets/images/pw_generator_one.png)
+![Diagramm]({{ site.baseurl }}/assets/images/pw_generator_two.png)
