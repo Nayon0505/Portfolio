@@ -4,11 +4,10 @@ parent: Projekte
 nav_order: 0
 ---
 
-# Passwort Manager 
-
----
-
-![Icon]({{ site.baseurl }}/assets/images/Icon_MountainKeys.png)
+<div style="display: flex; align-items: center; gap: 20px;">
+  <h1>Passwort Manager</h1>
+  <img src="{{ site.baseurl }}/assets/images/Icon_MountainKeys.png" alt="Icon" style="height: 80px; width: auto;">
+</div>
 
 ---
 
