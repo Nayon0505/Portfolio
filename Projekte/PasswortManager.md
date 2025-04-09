@@ -38,7 +38,8 @@ Das Anmeldesystem umfasst alle erforderlichen Funktionen: Es überprüft die E-M
 
 Um ein Benutzerkonto zu erstellen, muss der Benutzer einen Nutzernamen, seine E-Mail-Adresse sowie ein gewünschtes Passwort angeben und dieses bestätigen. Erfüllen alle Angaben die festgelegten Kriterien, wird das Benutzerkonto in der Firebase-Datenbank angelegt, und der Benutzer wird automatisch zum Dashboard weitergeleitet.
 
-![Login]({{ site.baseurl }}/assets/images/login.png)
-![Register]({{ site.baseurl }}/assets/images/register.png)
-
+<div style="display: flex; justify-content: space-between; gap: 10px; margin: 20px 0;">
+  <img src="{{ site.baseurl }}/assets/images/login.png" alt="Login" style="width: 48%;">
+  <img src="{{ site.baseurl }}/assets/images/register.png" alt="Register" style="width: 48%;">
+</div>
 ---
