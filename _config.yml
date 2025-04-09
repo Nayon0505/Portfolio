@@ -1,7 +1,7 @@
 title: Anil's Portfolio
 remote_theme: just-the-docs/just-the-docs
 mermaid:
-  version: "10.5.0" # Pick version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "10.9.0" # Pick version from https://cdn.jsdelivr.net/npm/mermaid/
 callouts:
   tip:
     title: 🤍 Tip

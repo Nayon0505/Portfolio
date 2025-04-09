@@ -8,7 +8,8 @@ nav_order: 0
 
 ---
 
-![Icon](/assets/images/Icon_MountainKeys.png)
+![Icon]({{ site.baseurl }}/assets/images/Icon_MountainKeys.png)
+![Diagramm]({{ site.baseurl }}/assets/images/PasswortManager_Diagramm.jpg)
 
 ---
 
@@ -19,4 +20,4 @@ In den Folgenden abschnitten bekommen Sie einen kleinen Einblick.
 
 ---
 
-![Diagramm](/assets/images/PasswortManager%20Diagramm.jpg)
+![Diagramm]({{ site.baseurl }}/assets/images/PasswortManager_Diagramm.jpg)
