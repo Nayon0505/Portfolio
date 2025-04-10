@@ -127,7 +127,9 @@ In diesem Bereich können folgende Aktionen durchgeführt werden:
 - 🚪 **Logout**  
   Sitzungsbeendigung auf allen Geräten
 
-![Einstellungsübersicht]({{ site.baseurl }}/assets/images/settings_verify.png){: .shadow }
+<div style="display: flex; justify-content: center; margin: 20px 0;">
+  <img src="{{ site.baseurl }}/assets/images/settings_verify.png" alt="Einstellungsübersicht" style="width: 48%;" class="shadow">
+</div>
 
 > 📬 **Verifizierungsprozess**  
 > Bei Anforderung einer neuen Verifizierungs-E-Mail erhält der Nutzer diese in folgendem Format:
