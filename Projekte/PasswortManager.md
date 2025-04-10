@@ -67,16 +67,27 @@ Ein kleines Feature: Maskierte Passwörter werden im Klartext angezeigt, sobald 
 
 ---
 
-## **4. Settings**
+## **4. Settings** ⚙️
 
-In den Einstellungen kann der Nutzer seine E-Mail-Adresse und seinen Benutzernamen einsehen. Außerdem erhält er Informationen darüber, ob seine E-Mail bereits verifiziert wurde. Falls nicht, kann er erneut eine Verifizierungs-E-Mail anfordern. Darüber hinaus hat er die Möglichkeit, sein Passwort zu ändern und sich bei Bedarf auszuloggen.
+**Benutzerkonto-Verwaltung**  
+In diesem Bereich können folgende Aktionen durchgeführt werden:
 
-![Diagramm]({{ site.baseurl }}/assets/images/settings_verify.png)
+- 📧 **E-Mail & Profildaten**  
+  Anzeige der registrierten E-Mail-Adresse und des Benutzernamens
+- ✅ **E-Mail-Verifizierung**  
+  Statusüberprüfung mit Möglichkeit zur erneuten Zusendung des Verifizierungslinks
+- 🔒 **Passwort ändern**  
+  Sichere Passwortaktualisierung über Bestätigungsdialog
+- 🚪 **Logout**  
+  Sitzungsbeendigung auf allen Geräten
 
-> {: .info }
-Sobald der User eine Verifizierungs-E-Mail anfordert, wird ihm diese zugeschickt und sieht wie folgt aus.
+![Einstellungsübersicht]({{ site.baseurl }}/assets/images/settings_verify.png){: .shadow }
 
-![Diagramm]({{ site.baseurl }}/assets/images/settings_verify_email.png)
+> 📬 **Verifizierungsprozess**  
+> Bei Anforderung einer neuen Verifizierungs-E-Mail erhält der Nutzer diese in folgendem Format:
+{: .info }
+
+![Beispiel Verifizierungs-E-Mail]({{ site.baseurl }}/assets/images/settings_verify_email.png){: .border }
 
 ---
 
