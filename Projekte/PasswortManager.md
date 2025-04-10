@@ -66,9 +66,7 @@ Um ein Benutzerkonto zu erstellen, muss der Benutzer einen Nutzernamen, seine E-
 
 In den Einstellungen kann der Nutzer seine E-Mail-Adresse und seinen Benutzernamen einsehen. Außerdem erhält er Informationen darüber, ob seine E-Mail bereits verifiziert wurde. Falls nicht, kann er erneut eine Verifizierungs-E-Mail anfordern. Darüber hinaus hat er die Möglichkeit, sein Passwort zu ändern und sich bei Bedarf auszuloggen.
 
-<div style="display: flex; justify-content: space-between; gap: 10px; margin: 20px 0;">
-  <img src="{{ site.baseurl }}/assets/images/settings_verify.png" alt="Login" style="width: 48%;">
-<div>
+![Diagramm]({{ site.baseurl }}/assets/images/settings_verifiy.png)
 
 > {: .info }
 Sobald der User eine Verifizierungs-E-Mail anfordert, wird ihm diese zugeschickt und sieht wie folgt aus.
