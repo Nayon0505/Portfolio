@@ -55,6 +55,11 @@ Um ein Benutzerkonto zu erstellen, muss der Benutzer einen Nutzernamen, seine E-
 
 ## **3. Dashboard**
 
+Das Dashboard bildet das Herzstück dieser Applikation. Hier kann der Nutzer seinem persönlichen "Wallet" neue Passwörter hinzufügen. Dazu gibt er den Benutzernamen oder die zugehörige E-Mail-Adresse, die Website sowie das entsprechende Passwort ein. Anschließend kann er die Eingaben speichern.
+Das Passwort wird in der Firebase-Datenbank unter einem nutzerspezifischen Verzeichnis abgelegt. Durch definierte Sicherheitsregeln ist der Zugriff darauf aktuell ausschließlich dem jeweiligen Nutzer sowie Administratoren vorbehalten.
+Zusätzlich kann der Nutzer Passwörter einfach bearbeiten, kopieren, durchsuchen oder bei Bedarf löschen.
+Ein kleines Feature: Maskierte Passwörter werden im Klartext angezeigt, sobald man sie anklickt – dies soll in bestimmten Situationen zur Wahrung der Privatsphäre beitragen.
+
 <div style="display: flex; justify-content: space-between; gap: 10px; margin: 20px 0;">
   <img src="{{ site.baseurl }}/assets/images/dashboard_one.png" alt="Login" style="width: 48%;">
   <img src="{{ site.baseurl }}/assets/images/dashboard_add_pw.png" alt="Register" style="width: 48%;">
@@ -66,7 +71,7 @@ Um ein Benutzerkonto zu erstellen, muss der Benutzer einen Nutzernamen, seine E-
 
 In den Einstellungen kann der Nutzer seine E-Mail-Adresse und seinen Benutzernamen einsehen. Außerdem erhält er Informationen darüber, ob seine E-Mail bereits verifiziert wurde. Falls nicht, kann er erneut eine Verifizierungs-E-Mail anfordern. Darüber hinaus hat er die Möglichkeit, sein Passwort zu ändern und sich bei Bedarf auszuloggen.
 
-![Diagramm]({{ site.baseurl }}/assets/images/settings_verifiy.png)
+![Diagramm]({{ site.baseurl }}/assets/images/settings_verify.png)
 
 > {: .info }
 Sobald der User eine Verifizierungs-E-Mail anfordert, wird ihm diese zugeschickt und sieht wie folgt aus.
@@ -77,7 +82,24 @@ Sobald der User eine Verifizierungs-E-Mail anfordert, wird ihm diese zugeschickt
 
 ## **5. Passwort Generator**
 
+Der Passwort-Generator ermöglicht es dem Nutzer, schnell und einfach Passwörter nach seinen persönlichen Vorlieben zu erstellen. Dabei kann er auswählen, ob das Passwort Groß- und/oder Kleinbuchstaben, Zahlen und/oder Sonderzeichen enthalten soll. Außerdem lässt sich die gewünschte Passwortlänge individuell festlegen.
+Nach der Generierung kann das Passwort mit einem einfachen Klick in die Zwischenablage kopiert werden.
+
 <div style="display: flex; justify-content: space-between; gap: 10px; margin: 20px 0;">
   <img src="{{ site.baseurl }}/assets/images/pw_generator_one.png" alt="Login" style="width: 48%;">
   <img src="{{ site.baseurl }}/assets/images/pw_generator_two.png" alt="Register" style="width: 48%;">
 </div>
+
+---
+
+## 📧 Kontakt
+Falls Sie Fragen haben oder mehr erfahren möchten, können Sie mich gerne kontaktieren:
+ 
+> {: .info }
+[![Email](https://img.shields.io/badge/-aniloeker@hotmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aniloeker@hotmail.com)
+[![LinkedIn](https://img.shields.io/badge/-Anil%20Emircan%20Öker-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anil-emircan-öker-a2878430a)
+[![GitHub](https://img.shields.io/badge/-@Emircan1122-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Emircan1122)
+
+--- 
+
+Vielen Dank für's anschauen meines Projektes!
