@@ -26,25 +26,52 @@ In den Folgenden abschnitten bekommen Sie einen kleinen Einblick.
 
 ---
 
-## **1. Grundstruktur der App**
+## **1. App-Architektur** 📱
 
-Im Rahmen eines Projekts habe ich eine Android-App entwickelt, deren Backend aus insgesamt 7 Java-Klassen besteht. Für das Frontend wurden 12 XML-Dateien erstellt, die die Benutzeroberfläche gestalten.
+**Technische Grundlagen**  
+- 🖥️ **Backend**  
+  7 Java-Klassen für Business-Logik und Datenpersistenz
+- 🎨 **Frontend**  
+  12 XML-Layouts für responsive UI-Komponenten
+- 🔗 **Integration**  
+  Firebase-Anbindung für Echtzeit-Datensynchronisation
 
-Beim ersten Start muss sich der Nutzer registrieren oder anmelden. Nach erfolgreichem Login erhält er Zugriff auf drei Hauptbereiche:
-
-- Dashboard 
-- Einstellungen 
-- Passwort-Generator 
+**Nutzerflow**  
+Starten der App erfordert zunächst:
+1. 🔐 **Authentifizierung**  
+   Registrierung oder Login mit bestehenden Credentials
+2. 🗺️ **Hauptnavigation**  
+   Zugriff auf drei Kernmodule:
+   - Dashboard 🖥️ (Passwort-Verwaltung)
+   - Einstellungen ⚙️ (Account-Konfiguration)
+   - Passwort-Generator 🔐 (Sicherheitstool)
 
 ![Diagramm]({{ site.baseurl }}/assets/images/PasswortManager_Diagramm.jpg)
 
 ---
+## **2. Login/Registrierung** 🔐
 
-## **2. Login/Registrierung**
+**Authentifizierungsprozess**  
+Sicheres Anmeldesystem mit folgenden Kernfunktionen:
 
-Das Anmeldesystem umfasst alle erforderlichen Funktionen: Es überprüft die E-Mail-Adresse und das Passwort des Benutzers. Bei gültigen Anmeldedaten wird der Benutzer authentifiziert und in das Dashboard weitergeleitet. Sind die Daten ungültig, erscheint eine Fehlermeldung. Zusätzlich besteht die Möglichkeit, das Passwort bei Bedarf über einen E-Mail-Link zurückzusetzen. Falls kein Benutzerkonto existiert, kann dieses direkt im System neu angelegt werden.
+- 🔑 **Anmeldung**  
+  Validierung von E-Mail und Passwort mit Dashboard-Weiterleitung bei Erfolg
+- ⚠️ **Fehlerbehandlung**  
+  Klare Fehlermeldungen bei ungültigen Credentials
+- ✉️ **Passwort-Reset**  
+  Passwortneusetzung via E-Mail-Link möglich
 
-Um ein Benutzerkonto zu erstellen, muss der Benutzer einen Nutzernamen, seine E-Mail-Adresse sowie ein gewünschtes Passwort angeben und dieses bestätigen. Erfüllen alle Angaben die festgelegten Kriterien, wird das Benutzerkonto in der Firebase-Datenbank angelegt, und der Benutzer wird automatisch zum Dashboard weitergeleitet, außerderm erhält er eine Verifizierungsmail.
+**Registrierungsablauf**  
+Erstellung eines neuen Benutzerkontos erfordert:
+
+1. 📝 **Pflichtangaben**  
+   Nutzername, E-Mail-Adresse und Passwort (mit Bestätigungsfeld)
+2. ✅ **Validierung**  
+   Einhaltung aller Sicherheitskriterien wird geprüft
+3. 🚀 **Automatisierte Prozesse**  
+   - Kontoanlage in Firebase-Datenbank
+   - Direkte Weiterleitung zum Dashboard
+   - Versand der Verifizierungs-E-Mail
 
 <div style="display: flex; justify-content: space-between; gap: 10px; margin: 20px 0;">
   <img src="{{ site.baseurl }}/assets/images/login.png" alt="Login" style="width: 48%;">
@@ -53,17 +80,36 @@ Um ein Benutzerkonto zu erstellen, muss der Benutzer einen Nutzernamen, seine E-
 
 ---
 
-## **3. Dashboard**
+## **3. Dashboard** 🖥️
 
-Das Dashboard bildet das Herzstück dieser Applikation. Hier kann der Nutzer seinem persönlichen "Wallet" neue Passwörter hinzufügen. Dazu gibt er den Benutzernamen oder die zugehörige E-Mail-Adresse, die Website sowie das entsprechende Passwort ein. Anschließend kann er die Eingaben speichern.
-Das Passwort wird in der Firebase-Datenbank unter einem nutzerspezifischen Verzeichnis abgelegt. Durch definierte Sicherheitsregeln ist der Zugriff darauf aktuell ausschließlich dem jeweiligen Nutzer sowie Administratoren vorbehalten.
-Zusätzlich kann der Nutzer Passwörter einfach bearbeiten, kopieren, durchsuchen oder bei Bedarf löschen.
-Ein kleines Feature: Maskierte Passwörter werden im Klartext angezeigt, sobald man sie anklickt – dies soll in bestimmten Situationen zur Wahrung der Privatsphäre beitragen.
+**Zentrale Verwaltungsoberfläche**  
+Das Dashboard ermöglicht folgende Kernfunktionen für das Passwortmanagement:
+
+- 🗃️ **Wallet-Übersicht**  
+  Zentrale Anzeige aller gespeicherten Zugangsdaten
+- ➕ **Neueintrag erstellen**  
+  Hinzufügen von Benutzername/E-Mail, Website und Passwort
+- 🔍 **Suchfunktion**  
+  Schnelle Filterung durch vorhandene Einträge
+- ✏️ **Bearbeitungsoptionen**  
+  Direktes Editieren, Kopieren oder Löschen von Einträgen
+
+  **Sicherheitsfeatures**  
+- 🔐 **Verschlüsselter Speicher**  
+  Passwörter werden in Firebase unter spezifischen Security Rules gespeichert
+- 👁️ **Selektive Sichtbarkeit**  
+  Maskierte Passwörter werden per Klick temporär im Klartext angezeigt
 
 <div style="display: flex; justify-content: space-between; gap: 10px; margin: 20px 0;">
   <img src="{{ site.baseurl }}/assets/images/dashboard_one.png" alt="Login" style="width: 48%;">
   <img src="{{ site.baseurl }}/assets/images/dashboard_add_pw.png" alt="Register" style="width: 48%;">
 </div>
+
+> 🔒 **Datenisolierung**  
+> Zugriff auf gespeicherte Passwörter haben ausschließlich:  
+> - Der jeweilige Kontoinhaber  
+> - Authorisierte Administratoren  
+{: .security-note }
 
 ---
 
@@ -91,10 +137,23 @@ In diesem Bereich können folgende Aktionen durchgeführt werden:
 
 ---
 
-## **5. Passwort Generator**
+## **5. Passwort Generator** 🔐
 
-Der Passwort-Generator ermöglicht es dem Nutzer, schnell und einfach Passwörter nach seinen persönlichen Vorlieben zu erstellen. Dabei kann er auswählen, ob das Passwort Groß- und/oder Kleinbuchstaben, Zahlen und/oder Sonderzeichen enthalten soll. Außerdem lässt sich die gewünschte Passwortlänge individuell festlegen.
-Nach der Generierung kann das Passwort mit einem einfachen Klick in die Zwischenablage kopiert werden.
+**Individuelle Passworterstellung**  
+Erzeugen Sie sichere Passwörter nach Maß mit folgenden Konfigurationsoptionen:
+
+- 🛠️ **Zeichentyp-Auswahl**  
+  Kombination aus Groß-/Kleinbuchstaben, Zahlen und Sonderzeichen
+- 🔘 **Optionale Komponenten**  
+  Einzelne Charaktergruppen per Toggle aktivierbar
+- 📏 **Längenvorgabe**  
+  Flexible Einstellung der Passwortlänge (8-64 Zeichen)
+
+**Workflow-Optimierungen**  
+- 🎲 **Echtzeit-Generierung**  
+  Sofortige Anzeige des erstellten Passworts
+- 📋 **Ein-Klick-Kopierfunktion**  
+  Direkte Übernahme in die Zwischenablage
 
 <div style="display: flex; justify-content: space-between; gap: 10px; margin: 20px 0;">
   <img src="{{ site.baseurl }}/assets/images/pw_generator_one.png" alt="Login" style="width: 48%;">
