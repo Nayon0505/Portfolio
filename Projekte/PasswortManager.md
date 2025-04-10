@@ -44,7 +44,7 @@ Beim ersten Start muss sich der Nutzer registrieren oder anmelden. Nach erfolgre
 
 Das Anmeldesystem umfasst alle erforderlichen Funktionen: Es überprüft die E-Mail-Adresse und das Passwort des Benutzers. Bei gültigen Anmeldedaten wird der Benutzer authentifiziert und in das Dashboard weitergeleitet. Sind die Daten ungültig, erscheint eine Fehlermeldung. Zusätzlich besteht die Möglichkeit, das Passwort bei Bedarf über einen E-Mail-Link zurückzusetzen. Falls kein Benutzerkonto existiert, kann dieses direkt im System neu angelegt werden.
 
-Um ein Benutzerkonto zu erstellen, muss der Benutzer einen Nutzernamen, seine E-Mail-Adresse sowie ein gewünschtes Passwort angeben und dieses bestätigen. Erfüllen alle Angaben die festgelegten Kriterien, wird das Benutzerkonto in der Firebase-Datenbank angelegt, und der Benutzer wird automatisch zum Dashboard weitergeleitet.
+Um ein Benutzerkonto zu erstellen, muss der Benutzer einen Nutzernamen, seine E-Mail-Adresse sowie ein gewünschtes Passwort angeben und dieses bestätigen. Erfüllen alle Angaben die festgelegten Kriterien, wird das Benutzerkonto in der Firebase-Datenbank angelegt, und der Benutzer wird automatisch zum Dashboard weitergeleitet, außerderm erhält er eine Verifizierungsmail.
 
 <div style="display: flex; justify-content: space-between; gap: 10px; margin: 20px 0;">
   <img src="{{ site.baseurl }}/assets/images/login.png" alt="Login" style="width: 48%;">
@@ -64,16 +64,17 @@ Um ein Benutzerkonto zu erstellen, muss der Benutzer einen Nutzernamen, seine E-
 
 ## **4. Settings**
 
+In den Einstellungen kann der Nutzer seine E-Mail-Adresse und seinen Benutzernamen einsehen. Außerdem erhält er Informationen darüber, ob seine E-Mail bereits verifiziert wurde. Falls nicht, kann er erneut eine Verifizierungs-E-Mail anfordern. Darüber hinaus hat er die Möglichkeit, sein Passwort zu ändern und sich bei Bedarf auszuloggen.
+
 <div style="display: flex; justify-content: space-between; gap: 10px; margin: 20px 0;">
   <img src="{{ site.baseurl }}/assets/images/settings_verify.png" alt="Login" style="width: 48%;">
-  <div>
+<div>
 
 > {: .info }
-    Sobald der User seine Email verifizieren möchte, wird ihm eine E-Mail gesschickt, die wie folgt aussieht.
+Sobald der User eine Verifizierungs-E-Mail anfordert, wird ihm diese zugeschickt und sieht wie folgt aus.
 
-<img src="{{ site.baseurl }}/assets/images/settings_verify_email.png" alt="Register" style="width: 48%;">
-  </div>
-</div>
+![Diagramm]({{ site.baseurl }}/assets/images/settings_verify_email.png)
+
 ---
 
 ## **5. Passwort Generator**
