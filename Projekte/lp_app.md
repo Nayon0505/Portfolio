@@ -79,11 +79,20 @@ Die Anwendung sieht wie folgt aus.
 
 ![Diagramm]({{ site.baseurl }}/assets/images/lp_vergleich_two.png)
 
-## Technologien
+### Technologien
 
 - **Jupyter Notebook:** Interaktive Ausführung und Visualisierung der Analysen.
 - **Python:** Implementierung der Optimierungsmodelle und Sensitivitätsanalysen.
 - **Optimierungsbibliotheken:** Einsatz moderner Bibliotheken (z.B. PuLP oder ähnliche), um das lineare Programm zu lösen.
+
+---
+
+## download 
+
+>Gerne können sie sich das Projekt auch genauer anschauen.
+
+><a href="Ablage\lpsensitivityanalysis.ipynb" download class="btn">📥 Download Notebook</a>
+{: .download }
 
 ---
 
