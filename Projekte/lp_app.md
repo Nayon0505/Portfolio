@@ -38,36 +38,44 @@ Dieses Projekt befasst sich mit der Untersuchung der Sensitivität von Lösungen
 Die Anwendung sieht wie folgt aus.
 ![Diagramm]({{ site.baseurl }}/assets/images/lp_case.png)
 
-Ein Beispiel.
-Nehmen wir an, wir haben die Varriablen *a* und *b*, die Objective coefficients sind *a = 3* und *b = 4*.
-Außerdem nehmen wir für das beispiel die folgenden Constraints: 
-1 * a <= 40
-1 * b <= 60
-2 * a + 1* b <= 100
+>Ein Beispiel.
+
+>Nehmen wir an, wir haben die Varriablen *a* und *b*, die Objective coefficients sind *a = 3* und *b = 4*.
+>Außerdem nehmen wir für das beispiel die folgenden Constraints: 
+>1 * a <= 40
+>1 * b <= 60
+>2 * a + 1* b <= 100
+{: .info }
 
 ![Diagramm]({{ site.baseurl }}/assets/images/lp_zero.png)
 
-Folgend bekommen wir diese Ergebnisse.
+>Folgend bekommen wir diese Ergebnisse.
+{: .info }
+
 ![Diagramm]({{ site.baseurl }}/assets/images/lp_one.png)
 ![Diagramm]({{ site.baseurl }}/assets/images/lp_two.png)
 
-Nun erhöhen wir beispielsweise den Wert von a über die zulässige Erhöhung von 5,01, um zu untersuchen, wie sich die optimale Lösung verändert. 
-Dabei bleiben alle anderen Parameter unverändert; lediglich der Wert von a wird von 3 auf 9 angepasst.
+>Nun erhöhen wir beispielsweise den Wert von a über die zulässige Erhöhung von 5,01, um zu untersuchen, wie sich die optimale Lösung verändert. 
+>Dabei bleiben alle anderen Parameter unverändert; lediglich der Wert von a wird von 3 auf 9 angepasst.
+{: .info }
 
 ![Diagramm]({{ site.baseurl }}/assets/images/lp_three.png)
 
-Wenn wir alles vergleich, entstehen diese Abbildungen. 
-Die optimale Lösung verändert sich, da die zulässige Erhöhung überschritten wurde.
+>Wenn wir alles vergleich, entstehen diese Abbildungen. 
+>Die optimale Lösung verändert sich, da die zulässige Erhöhung überschritten wurde.
+{: .info }
 
 ![Diagramm]({{ site.baseurl }}/assets/images/lp_diagramm.png)
 
-Zum Vergleich erhöhen wir den Startwert von a = 3 nun innerhalb der zulässigen Erhöhung von 5,01.
-Alle anderen Parameter bleiben unverändert; lediglich a wird von 3 auf 8 angepasst.
+>Zum Vergleich erhöhen wir den Startwert von a = 3 nun innerhalb der zulässigen Erhöhung von 5,01.
+>Alle anderen Parameter bleiben unverändert; lediglich a wird von 3 auf 8 angepasst.
+{: .info }
 
 ![Diagramm]({{ site.baseurl }}/assets/images/lp_vergleich_one.png)
 
-Das Diagramm zeigt, wie erwartet, dass sich die optimale Lösung nicht ändert:
-Zwar variiert der Profit, das Produktionsvolumen bleibt jedoch konstant.
+>Das Diagramm zeigt, wie erwartet, dass sich die optimale Lösung nicht ändert:
+>Zwar variiert der Profit, das Produktionsvolumen bleibt jedoch konstant.
+{: .info }
 
 ![Diagramm]({{ site.baseurl }}/assets/images/lp_vergleich_two.png)
 
@@ -80,3 +88,17 @@ Zwar variiert der Profit, das Produktionsvolumen bleibt jedoch konstant.
 ---
 
 Diese Arbeit unterstreicht, wie mathematische Optimierung in Verbindung mit Sensitivitätsanalysen dazu beitragen kann, fundierte Entscheidungen in dynamischen und unsicheren Umfeldern zu treffen.
+
+---
+
+## 📧 Kontakt
+Falls Sie Fragen haben oder mehr erfahren möchten, können Sie mich gerne kontaktieren:
+ 
+> {: .info }
+[![Email](https://img.shields.io/badge/-aniloeker@hotmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aniloeker@hotmail.com)
+[![LinkedIn](https://img.shields.io/badge/-Anil%20Emircan%20Öker-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anil-emircan-öker-a2878430a)
+[![GitHub](https://img.shields.io/badge/-@Emircan1122-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Emircan1122)
+
+--- 
+
+Vielen Dank für's anschauen meines Projektes!
