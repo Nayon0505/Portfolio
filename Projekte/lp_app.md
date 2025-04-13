@@ -4,6 +4,13 @@ parent: Projekte
 nav_order: 3
 ---
 
+<div style="display: flex; align-items: center; gap: 20px;">
+  <h1>Passwort Manager</h1>
+  <img src="{{ site.baseurl }}/assets/images/Icon_MountainKeys.png" alt="Icon" style="height: 80px; width: auto;">
+</div>
+
+---
+
 # LP Sensitivity Analysis
 
 Dieses Projekt befasst sich mit der Untersuchung der Sensitivität von Lösungen in einem linearen Optimierungsmodell. Anhand eines Jupyter-Notebooks wird demonstriert, wie sich kleine Veränderungen in den Parametern – etwa in den Koeffizienten der Ziel- und Nebenbedingungen – auf die optimale Lösung eines linearen Programms auswirken.
@@ -25,6 +32,44 @@ Dieses Projekt befasst sich mit der Untersuchung der Sensitivität von Lösungen
 - **Praxisrelevanz:**  
   Ableitung von Erkenntnissen, die in Bereichen wie Ressourcenallokation, Produktionsplanung und strategischer Entscheidungsfindung von Bedeutung sind.  
   Demonstration, wie durch gezielte Analyse robuster und fundierter Entscheidungen getroffen werden können.
+
+## Prototyp
+
+Die Anwendung sieht wie folgt aus.
+![Diagramm]({{ site.baseurl }}/assets/images/lp_case.png)
+
+Ein Beispiel.
+Nehmen wir an, wir haben die Varriablen *a* und *b*, die Objective coefficients sind *a = 3* und *b = 4*.
+Außerdem nehmen wir für das beispiel die folgenden Constraints: 
+1 * a <= 40
+1 * b <= 60
+2 * a + 1* b <= 100
+
+![Diagramm]({{ site.baseurl }}/assets/images/lp_zero.png)
+
+Folgend bekommen wir diese Ergebnisse.
+![Diagramm]({{ site.baseurl }}/assets/images/lp_one.png)
+![Diagramm]({{ site.baseurl }}/assets/images/lp_two.png)
+
+Nun erhöhen wir beispielsweise den Wert von a über die zulässige Erhöhung von 5,01, um zu untersuchen, wie sich die optimale Lösung verändert. 
+Dabei bleiben alle anderen Parameter unverändert; lediglich der Wert von a wird von 3 auf 9 angepasst.
+
+![Diagramm]({{ site.baseurl }}/assets/images/lp_three.png)
+
+Wenn wir alles vergleich, entstehen diese Abbildungen. 
+Die optimale Lösung verändert sich, da die zulässige Erhöhung überschritten wurde.
+
+![Diagramm]({{ site.baseurl }}/assets/images/lp_diagramm.png)
+
+Zum Vergleich erhöhen wir den Startwert von a = 3 nun innerhalb der zulässigen Erhöhung von 5,01.
+Alle anderen Parameter bleiben unverändert; lediglich a wird von 3 auf 8 angepasst.
+
+![Diagramm]({{ site.baseurl }}/assets/images/lp_vergleich_one.png)
+
+Das Diagramm zeigt, wie erwartet, dass sich die optimale Lösung nicht ändert:
+Zwar variiert der Profit, das Produktionsvolumen bleibt jedoch konstant.
+
+![Diagramm]({{ site.baseurl }}/assets/images/lp_vergleich_two.png)
 
 ## Technologien
 
