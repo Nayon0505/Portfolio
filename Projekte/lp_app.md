@@ -36,6 +36,7 @@ Dieses Projekt befasst sich mit der Untersuchung der Sensitivität von Lösungen
 ## Prototyp
 
 Die Anwendung sieht wie folgt aus.
+
 ![Diagramm]({{ site.baseurl }}/assets/images/lp_case.png)
 
 >*Ein Beispiel*
@@ -83,14 +84,6 @@ Die Anwendung sieht wie folgt aus.
 - **Jupyter Notebook:** Interaktive Ausführung und Visualisierung der Analysen.
 - **Python:** Implementierung der Optimierungsmodelle und Sensitivitätsanalysen.
 - **Optimierungsbibliotheken:** Einsatz moderner Bibliotheken (z.B. PuLP oder ähnliche), um das lineare Programm zu lösen.
-
----
-
-## download 
-
->Gerne können sie sich das Projekt auch genauer anschauen.
->[Download Notebook](assets/Ablage/lpsensitivityanalysis.ipynb)
-{: .download }
 
 ---
 
