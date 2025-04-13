@@ -30,7 +30,7 @@ In den Folgenden abschnitten bekommen Sie einen kleinen Einblick.
 
 **Technische Grundlagen**  
 - **Backend**  
-  7 Java-Klassen für Business-Logik und Datenpersistenz
+  besteht aus insgesammt 7 Java-Klassen 
 - **Frontend**  
   12 XML-Layouts für responsive UI-Komponenten
 - **Integration**  
@@ -43,8 +43,8 @@ Starten der App erfordert zunächst:
 2. **Hauptnavigation**  
    Zugriff auf drei Kernmodule:
    - Dashboard  (Passwort-Verwaltung)
-   - Einstellungen  (Account-Konfiguration)
-   - Passwort-Generator  (Sicherheitstool)
+   - Einstellungen  
+   - Passwort-Generator 
 
 ![Diagramm]({{ site.baseurl }}/assets/images/PasswortManager_Diagramm.jpg)
 
@@ -125,7 +125,7 @@ In diesem Bereich können folgende Aktionen durchgeführt werden:
 - **Passwort ändern**  
   Sichere Passwortaktualisierung über Bestätigungsdialog
 - **Logout**  
-  Sitzungsbeendigung auf allen Geräten
+  Sitzungsbeendigung 
 
 <div style="display: flex; justify-content: center; margin: 20px 0;">
   <img src="{{ site.baseurl }}/assets/images/settings_verify.png" alt="Einstellungsübersicht" style="width: 48%;" class="shadow">
@@ -149,7 +149,7 @@ Erzeugen Sie sichere Passwörter nach Maß mit folgenden Konfigurationsoptionen:
 - **Optionale Komponenten**  
   Einzelne Charaktergruppen per Toggle aktivierbar
 - **Längenvorgabe**  
-  Flexible Einstellung der Passwortlänge (8-64 Zeichen)
+  Flexible Einstellung der Passwortlänge (8-16 Zeichen)
 
 **Workflow-Optimierungen**  
 - **Echtzeit-Generierung**  
