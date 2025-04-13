@@ -89,7 +89,7 @@ Die Anwendung sieht wie folgt aus.
 ## download 
 
 >Gerne können sie sich das Projekt auch genauer anschauen.
-[Download Notebook](assets\Ablage\lpsensitivityanalysis.ipynb)
+>[Download Notebook](assets/Ablage/lpsensitivityanalysis.ipynb)
 {: .download }
 
 ---
