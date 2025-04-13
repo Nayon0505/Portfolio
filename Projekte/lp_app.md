@@ -53,7 +53,7 @@ Die Anwendung sieht wie folgt aus.
 {: .info }
 
 ![Diagramm]({{ site.baseurl }}/assets/images/lp_one.png)
-![Diagramm]({{ site.baseurl }}/assets/images/lp_two.png)
+![Diagramm]({{ site.baseurl }}/assets/images/lp_ergänzen.png)
 
 >Nun erhöhen wir beispielsweise den Wert von a über die zulässige Erhöhung von 5,01, um zu untersuchen, wie sich die optimale Lösung verändert. 
 >Dabei bleiben alle anderen Parameter unverändert; lediglich der Wert von a wird von 3 auf 9 angepasst.
