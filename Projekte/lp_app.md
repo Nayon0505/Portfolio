@@ -35,7 +35,7 @@ Dieses Projekt befasst sich mit der Untersuchung der Sensitivität von Lösungen
 
 ## Prototyp
 
-Die Anwendung sieht wie folgt aus.
+**Die Anwendung sieht wie folgt aus.**
 
 ![Diagramm]({{ site.baseurl }}/assets/images/lp_case.png)
 
