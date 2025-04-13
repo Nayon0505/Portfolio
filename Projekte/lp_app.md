@@ -42,8 +42,8 @@ Die Anwendung sieht wie folgt aus.
 
 >Nehmen wir an, wir haben die Varriablen *a* und *b*, die Objective coefficients sind *a = 3* und *b = 4*.
 >Außerdem nehmen wir für das beispiel die folgenden Constraints: 
->1 * a <= 40
->1 * b <= 60
+>1 * a <= 40;
+>1 * b <= 60;
 >2 * a + 1* b <= 100
 {: .info }
 
