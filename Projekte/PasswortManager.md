@@ -29,22 +29,22 @@ In den Folgenden abschnitten bekommen Sie einen kleinen Einblick.
 ## **1. App-Architektur** 📱
 
 **Technische Grundlagen**  
-- 🖥️ **Backend**  
+- **Backend**  
   7 Java-Klassen für Business-Logik und Datenpersistenz
-- 🎨 **Frontend**  
+- **Frontend**  
   12 XML-Layouts für responsive UI-Komponenten
-- 🔗 **Integration**  
+- **Integration**  
   Firebase-Anbindung für Echtzeit-Datensynchronisation
 
 **Nutzerflow**  
 Starten der App erfordert zunächst:
-1. 🔐 **Authentifizierung**  
+1. **Authentifizierung**  
    Registrierung oder Login mit bestehenden Credentials
-2. 🗺️ **Hauptnavigation**  
+2. **Hauptnavigation**  
    Zugriff auf drei Kernmodule:
-   - Dashboard 🖥️ (Passwort-Verwaltung)
-   - Einstellungen ⚙️ (Account-Konfiguration)
-   - Passwort-Generator 🔐 (Sicherheitstool)
+   - Dashboard  (Passwort-Verwaltung)
+   - Einstellungen  (Account-Konfiguration)
+   - Passwort-Generator  (Sicherheitstool)
 
 ![Diagramm]({{ site.baseurl }}/assets/images/PasswortManager_Diagramm.jpg)
 
@@ -54,21 +54,21 @@ Starten der App erfordert zunächst:
 **Authentifizierungsprozess**  
 Sicheres Anmeldesystem mit folgenden Kernfunktionen:
 
-- 🔑 **Anmeldung**  
+- **Anmeldung**  
   Validierung von E-Mail und Passwort mit Dashboard-Weiterleitung bei Erfolg
-- ⚠️ **Fehlerbehandlung**  
+- **Fehlerbehandlung**  
   Klare Fehlermeldungen bei ungültigen Credentials
-- ✉️ **Passwort-Reset**  
+- **Passwort-Reset**  
   Passwortneusetzung via E-Mail-Link möglich
 
 **Registrierungsablauf**  
 Erstellung eines neuen Benutzerkontos erfordert:
 
-1. 📝 **Pflichtangaben**  
+1. **Pflichtangaben**  
    Nutzername, E-Mail-Adresse und Passwort (mit Bestätigungsfeld)
-2. ✅ **Validierung**  
+2. **Validierung**  
    Einhaltung aller Sicherheitskriterien wird geprüft
-3. 🚀 **Automatisierte Prozesse**  
+3. **Automatisierte Prozesse**  
    - Kontoanlage in Firebase-Datenbank
    - Direkte Weiterleitung zum Dashboard
    - Versand der Verifizierungs-E-Mail
@@ -95,9 +95,9 @@ Das Dashboard ermöglicht folgende Kernfunktionen für das Passwortmanagement:
   Direktes Editieren, Kopieren oder Löschen von Einträgen
 
   **Sicherheitsfeatures**  
-- 🔐 **Verschlüsselter Speicher**  
+- **Verschlüsselter Speicher**  
   Passwörter werden in Firebase unter spezifischen Security Rules gespeichert
-- 👁️ **Selektive Sichtbarkeit**  
+- **Selektive Sichtbarkeit**  
   Maskierte Passwörter werden per Klick temporär im Klartext angezeigt
 
 <div style="display: flex; justify-content: space-between; gap: 10px; margin: 20px 0;">
@@ -118,13 +118,13 @@ Das Dashboard ermöglicht folgende Kernfunktionen für das Passwortmanagement:
 **Benutzerkonto-Verwaltung**  
 In diesem Bereich können folgende Aktionen durchgeführt werden:
 
-- 📧 **E-Mail & Profildaten**  
+- **E-Mail & Profildaten**  
   Anzeige der registrierten E-Mail-Adresse und des Benutzernamens
-- ✅ **E-Mail-Verifizierung**  
+- **E-Mail-Verifizierung**  
   Statusüberprüfung mit Möglichkeit zur erneuten Zusendung des Verifizierungslinks
-- 🔒 **Passwort ändern**  
+- **Passwort ändern**  
   Sichere Passwortaktualisierung über Bestätigungsdialog
-- 🚪 **Logout**  
+- **Logout**  
   Sitzungsbeendigung auf allen Geräten
 
 <div style="display: flex; justify-content: center; margin: 20px 0;">
@@ -144,17 +144,17 @@ In diesem Bereich können folgende Aktionen durchgeführt werden:
 **Individuelle Passworterstellung**  
 Erzeugen Sie sichere Passwörter nach Maß mit folgenden Konfigurationsoptionen:
 
-- 🛠️ **Zeichentyp-Auswahl**  
+- **Zeichentyp-Auswahl**  
   Kombination aus Groß-/Kleinbuchstaben, Zahlen und Sonderzeichen
-- 🔘 **Optionale Komponenten**  
+- **Optionale Komponenten**  
   Einzelne Charaktergruppen per Toggle aktivierbar
-- 📏 **Längenvorgabe**  
+- **Längenvorgabe**  
   Flexible Einstellung der Passwortlänge (8-64 Zeichen)
 
 **Workflow-Optimierungen**  
-- 🎲 **Echtzeit-Generierung**  
+- **Echtzeit-Generierung**  
   Sofortige Anzeige des erstellten Passworts
-- 📋 **Ein-Klick-Kopierfunktion**  
+- **Ein-Klick-Kopierfunktion**  
   Direkte Übernahme in die Zwischenablage
 
 <div style="display: flex; justify-content: space-between; gap: 10px; margin: 20px 0;">
