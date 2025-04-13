@@ -38,8 +38,7 @@ Dieses Projekt befasst sich mit der Untersuchung der Sensitivität von Lösungen
 Die Anwendung sieht wie folgt aus.
 ![Diagramm]({{ site.baseurl }}/assets/images/lp_case.png)
 
->Ein Beispiel.
-
+>*Ein Beispiel*
 >Nehmen wir an, wir haben die Varriablen *a* und *b*, die Objective coefficients sind *a = 3* und *b = 4*.
 >Außerdem nehmen wir für das beispiel die folgenden Constraints: 
 >1 * a <= 40;
@@ -90,8 +89,7 @@ Die Anwendung sieht wie folgt aus.
 ## download 
 
 >Gerne können sie sich das Projekt auch genauer anschauen.
-
-><a href="Ablage\lpsensitivityanalysis.ipynb" download class="btn">📥 Download Notebook</a>
+[Download Notebook](assets\Ablage\lpsensitivityanalysis.ipynb)
 {: .download }
 
 ---
