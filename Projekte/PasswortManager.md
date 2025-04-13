@@ -109,7 +109,7 @@ Das Dashboard ermöglicht folgende Kernfunktionen für das Passwortmanagement:
 > Zugriff auf gespeicherte Passwörter haben ausschließlich:  
 > - Der jeweilige Kontoinhaber  
 > - Authorisierte Administratoren  
-{: .security-note }
+{: .tip }
 
 ---
 
