@@ -4,10 +4,12 @@ parent: Projekte
 nav_order: 3
 ---
 
-<div style="display: flex; align-items: center; gap: 20px;">
-  <h1>Passwort Manager</h1>
-  <img src="{{ site.baseurl }}/assets/images/Icon_MountainKeys.png" alt="Icon" style="height: 80px; width: auto;">
-</div>
+<details open markdown="block">
+{: .text-delta }
+<summary>Table of contents</summary>
++ ToC
+{: toc }
+</details>
 
 ---
 
@@ -101,4 +103,4 @@ Falls Sie Fragen haben oder mehr erfahren möchten, können Sie mich gerne konta
 
 --- 
 
-Vielen Dank für's anschauen meines Projektes!
+Vielen Dank für's Anschauen!

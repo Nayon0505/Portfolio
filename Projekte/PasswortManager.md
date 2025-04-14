@@ -3,26 +3,23 @@ title: Passwort manager
 parent: Projekte
 nav_order: 0
 ---
-
-<div style="display: flex; align-items: center; gap: 20px;">
-  <h1>Passwort Manager</h1>
-  <img src="{{ site.baseurl }}/assets/images/Icon_MountainKeys.png" alt="Icon" style="height: 80px; width: auto;">
-</div>
-
----
-
-Der Name des Passwort Managers lautet MountanKey (natürlich wird Berg im Englischen anders geschrieben), 
-im Rahmen des Modules App Entwicklung mit Android, habe ich dieses Projekt bearbeitet.
-In den Folgenden abschnitten bekommen Sie einen kleinen Einblick.
-
----
-
 <details open markdown="block">
 {: .text-delta }
 <summary>Table of contents</summary>
 + ToC
 {: toc }
 </details>
+
+---
+
+<div style="display: flex; align-items: center; gap: 20px;">
+  <h1>Passwort Manager</h1>
+  <img src="{{ site.baseurl }}/assets/images/Icon_MountainKeys.png" alt="Icon" style="height: 80px; width: auto;">
+</div>
+
+Der Name des Passwort Managers lautet MountanKey (natürlich wird Berg im Englischen anders geschrieben), 
+im Rahmen des Modules App Entwicklung mit Android, habe ich dieses Projekt bearbeitet.
+In den Folgenden abschnitten bekommen Sie einen kleinen Einblick.
 
 ---
 
@@ -174,4 +171,4 @@ Falls Sie Fragen haben oder mehr erfahren möchten, können Sie mich gerne konta
 
 --- 
 
-Vielen Dank für's anschauen meines Projektes!
+Vielen Dank für's Anschauen meines Projektes!

@@ -4,10 +4,12 @@ parent: Projekte
 nav_order: 2
 ---
 
-<div style="display: flex; align-items: center; gap: 20px;">
-  <h1>Passwort Manager</h1>
-  <img src="{{ site.baseurl }}/assets/images/Icon_MountainKeys.png" alt="Icon" style="height: 80px; width: auto;">
-</div>
+<details open markdown="block">
+{: .text-delta }
+<summary>Table of contents</summary>
++ ToC
+{: toc }
+</details>
 
 ---
 
@@ -17,12 +19,14 @@ Im Rahmen dieses Projekts führten mein Projektpartner und ich eine umfassende A
 
 Grundlage hierfür bildete ein maschinelles Lernmodell, das wir auf Basis der erhobenen Daten trainierten. Zuvor identifizierten wir jedoch durch eine detaillierte Korrelationsanalyse, welche Variablen in welchem Maße mit der Kundenzufriedenheit zusammenhängen. Dieser Schritt war essenziell, um die relevanten Prädiktoren für unser Modell zu bestimmen.
 
->**Hinweis:** Das gesamte Projekt können Sie direkt auf dem unserem Kaggle Notebook im Detail erkunden:
+>Das gesamte Projekt können Sie direkt auf dem unserem Kaggle Notebook im Detail erkunden:
 >
 >[![Kaggle](https://img.shields.io/badge/-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/code/nayon0505/airline-passenger-satisfaction1/notebook) 
 {: .attention }
 
 ---
+
+
 
 ## Kleiner Einblick
 
@@ -54,4 +58,4 @@ Falls Sie Fragen haben oder mehr erfahren möchten, können Sie mich gerne konta
 
 --- 
 
-Vielen Dank für's anschauen meines Projektes!
+Vielen Dank für's Anschauen!
