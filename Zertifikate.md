@@ -34,9 +34,8 @@ Auf einigen meiner Zertifikate erscheint der Name „soeker23“, anstatt meines
 ### Python Intermediate
 - **Ausgestellt von:** Datacamp  
 - **Erwerbsdatum:** Oktober 2024  
-- [📄 Zertifikat ansehen](https://github.com/Emircan1122/Portfolio/blob/main/certificate%20Intermediate%20Python.pdf)
-
-
+- [📄 Zertifikat ansehen](https://github.com/Emircan1122/Portfolio/blob/main/certificate%20intermediate%20Python.pdf)
+ 
 ### Introduction to SQL
 - **Ausgestellt von:** Datacamp  
 - **Erwerbsdatum:** Januar 2024  
@@ -58,7 +57,7 @@ Auf einigen meiner Zertifikate erscheint der Name „soeker23“, anstatt meines
 ### Introduction to Data Science in Python
 - **Ausgestellt von:** Datacamp  
 - **Erwerbsdatum:** Januar 2024  
-- [📄 Zertifikat ansehen](https://github.com/Emircan1122/Portfolio/blob/main/certificate%20Introduction%20to%20Data%20Science&20in%20Python.pdf)
+- [📄 Zertifikat ansehen](https://github.com/Emircan1122/Portfolio/blob/main/certificate%20Introduction%20to%20Data%20Science%20in%20Python.pdf)
 
 
 ### Data Analysis in Excel
