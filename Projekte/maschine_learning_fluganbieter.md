@@ -17,9 +17,10 @@ Im Rahmen dieses Projekts führten mein Projektpartner und ich eine umfassende A
 
 Grundlage hierfür bildete ein maschinelles Lernmodell, das wir auf Basis der erhobenen Daten trainierten. Zuvor identifizierten wir jedoch durch eine detaillierte Korrelationsanalyse, welche Variablen in welchem Maße mit der Kundenzufriedenheit zusammenhängen. Dieser Schritt war essenziell, um die relevanten Prädiktoren für unser Modell zu bestimmen.
 
->Das *Gesamte Projekt* können sie direkt auf dem unserem Kaggle Notebook betrachten:
-[![Kaggle](https://img.shields.io/badge/-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/code/nayon0505/airline-passenger-satisfaction1/notebook) 
-{: .attention }
+> **Hinweis:** Das komplette Projekt können Sie in unserem [Kaggle-Notebook](https://www.kaggle.com/code/nayon0505/airline-passenger-satisfaction1/notebook) im Detail erkunden:
+>
+> [![Kaggle](https://img.shields.io/badge/-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/code/nayon0505/airline-passenger-satisfaction1/notebook)
+
 
 ---
 
