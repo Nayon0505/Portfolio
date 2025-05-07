@@ -44,7 +44,7 @@ Die Anwendung soll Betrieben helfen, kritische Compliance-Anforderungen effizien
   muted 
   playsinline 
   controls
-  style="max-width: 30%; height: auto;"
+  style="max-width: 100%; height: auto;"
 >
 
 <!-- ![Diagramm]({{ site.baseurl }}/assets/images/sic_one.png)
@@ -62,7 +62,7 @@ Die Anwendung soll Betrieben helfen, kritische Compliance-Anforderungen effizien
   muted 
   playsinline 
   controls
-  style="max-width: 30%; height: auto;"
+  style="max-width: 100%; height: auto;"
 >
 
 
@@ -76,16 +76,18 @@ Die Anwendung soll Betrieben helfen, kritische Compliance-Anforderungen effizien
   muted 
   playsinline 
   controls
-  style="max-width: 30%; height: auto;"
+  style="max-width: 100%; height: auto;"
 >
 
 <!-- ![Diagramm]({{ site.baseurl }}/assets/images/sic_six.png) -->
 
->Die Tests sehen teils wie folgt aus.
-{: .info }
+
 
 <!-- ![Diagramm]({{ site.baseurl }}/assets/images/sic_three.png)
 ![Diagramm]({{ site.baseurl }}/assets/images/sic_four.png) -->
+
+>Die Tests sehen teils wie folgt aus.
+{: .info }
 
 <video 
   src="{{ '/assets/videos/schnelltestsic.mp4' | relative_url }}" 
@@ -94,7 +96,7 @@ Die Anwendung soll Betrieben helfen, kritische Compliance-Anforderungen effizien
   muted 
   playsinline 
   controls
-  style="max-width: 30%; height: auto;"
+  style="max-width: 100%; height: auto;"
 >
 
 <video 
@@ -104,7 +106,7 @@ Die Anwendung soll Betrieben helfen, kritische Compliance-Anforderungen effizien
   muted 
   playsinline 
   controls
-  style="max-width: 30%; height: auto;"
+  style="max-width: 100%; height: auto;"
 >
 
 >Nach vollständiger Beantwortung aller Fragen bewertet das System die Eingaben mittels eines Ampelsystems (Grün/Gelb/Rot).
