@@ -1,7 +1,6 @@
 ---
 title: FeelSave
-parent: Projekte
-nav_order: 0
+nav_order: 1
 ---
 <details open markdown="block">
 {: .text-delta }
@@ -133,20 +132,16 @@ Das Info Popup ist ein ganz einfacher Dialog, den ich mit der Klassw *InfoDialog
 
 
 
-> ##### TIP
->
 > Mit "Strg +" können Sie ranzoomen
 {: .info }
 
->Die Startseite der Anwendung präsentiert Nutzern zwei Testvarianten: einen Schnelltest und einen ausführlichen Test.
->Während der Schnelltest sofort verfügbar ist, erfordert der detaillierte Test eine vorherige Registrierung/Anmeldung.
-{: .info }
+
 
 
 
 ## 🧰 Tech Stack
 
-#### **Der Code ist nach MVC (Model, View, Controller) strukturiert.**
+ **Der Code ist nach MVC (Model, View, Controller) strukturiert.**
 
 ## 🛠 Sprachen, Frameworks & IDEs
 

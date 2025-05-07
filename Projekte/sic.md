@@ -1,7 +1,6 @@
 ---
 title: SIC! - Sustainable Innovation Checker
-parent: Projekte
-nav_order: 1
+nav_order: 2
 ---
 
 <details open markdown="block">
