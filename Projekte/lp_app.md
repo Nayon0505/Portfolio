@@ -1,11 +1,11 @@
 ---
-title: LP Sensitivity Analysis Interface - Python
+title: LP Sensitivity Analysis Interface – Python
 nav_order: 4
 ---
 
 <details open markdown="block">
 {: .text-delta }
-<summary>Table of contents</summary>
+<summary>Inhaltsverzeichnis</summary>
 + ToC
 {: toc }
 </details>
@@ -14,92 +14,99 @@ nav_order: 4
 
 # LP Sensitivity Analysis
 
-Dieses Projekt befasst sich mit der Untersuchung der Sensitivität von Lösungen in einem linearen Optimierungsmodell. Anhand eines Jupyter-Notebooks wird demonstriert, wie sich kleine Veränderungen in den Parametern – etwa in den Koeffizienten der Ziel- und Nebenbedingungen – auf die optimale Lösung eines linearen Programms auswirken.
+Dieses Projekt beschäftigt sich mit der Sensitivitätsanalyse von linearen Optimierungsmodellen. In einem interaktiven Jupyter-Notebook wird veranschaulicht, wie sich kleine Änderungen an Parametern – insbesondere an den Koeffizienten der Zielfunktion und Nebenbedingungen – auf die optimale Lösung eines linearen Programms auswirken.
+
+---
 
 ## Projektinhalte
 
-- **Modellierung eines linearen Optimierungsproblems:**  
-  Formulierung von Entscheidungsvariablen, Zielfunktionen und Nebenbedingungen, um ein praxisnahes Optimierungsproblem zu lösen.
+- **Modellierung eines linearen Optimierungsproblems**  
+  Formulierung von Entscheidungsvariablen, Zielgrößen und Restriktionen zur Lösung eines praxisnahen Optimierungsproblems.
 
-- **Sensitivitätsanalyse:**  
-  Untersuchung der Robustheit der optimalen Lösung gegenüber Änderungen der Eingabedaten.  
-  - Berechnung von Schattenpreisen und Durchführung dualer Analysen.  
-  - Identifikation kritischer Parameter, die maßgeblich den Ergebnisbereich beeinflussen.
+- **Sensitivitätsanalyse**  
+  Analyse der Stabilität und Robustheit der optimalen Lösung bei Änderungen der Eingabedaten.  
+  - Berechnung von Schattenpreisen und Durchführung dualer Auswertungen  
+  - Identifikation kritischer Parameter, die die Lösung maßgeblich beeinflussen
 
-- **Anwendung und Visualisierung:**  
-  Einsatz von realen oder simulierten Datensätzen, um die praktische Relevanz der Sensitivitätsanalyse aufzuzeigen.  
-  Anschauliche Darstellung der Ergebnisse mit Diagrammen und Grafiken, die unterschiedliche Szenarien illustrieren.
+- **Anwendung & Visualisierung**  
+  Veranschaulichung der Auswirkungen mit Hilfe von realen oder simulierten Datensätzen  
+  - Darstellung der Ergebnisse mittels anschaulicher Diagramme und Visualisierungen
 
-- **Praxisrelevanz:**  
-  Ableitung von Erkenntnissen, die in Bereichen wie Ressourcenallokation, Produktionsplanung und strategischer Entscheidungsfindung von Bedeutung sind.  
-  Demonstration, wie durch gezielte Analyse robuster und fundierter Entscheidungen getroffen werden können.
+- **Praxisrelevanz**  
+  Übertragung der Ergebnisse auf konkrete Anwendungsbereiche wie Ressourcenallokation, Produktionsplanung oder strategische Entscheidungsprozesse
+
+---
 
 ## Prototyp
 
-**Die Anwendung sieht wie folgt aus.**
+**Einblick in die interaktive Anwendung:**
 
-![Diagramm]({{ site.baseurl }}/assets/images/lp_case.png)
+![LP Case]({{ site.baseurl }}/assets/images/lp_case.png)
 
->*Ein Beispiel*
->Nehmen wir an, wir haben die Varriablen *a* und *b*, die Objective coefficients sind *a = 3* und *b = 4*.
->Außerdem nehmen wir für das beispiel die folgenden Constraints: 
->1 * a <= 40;
->1 * b <= 60;
->2 * a + 1* b <= 100
-{: .info }
+Nehmen wir als Beispiel zwei Variablen *a* und *b* mit den Zielkoeffizienten *a = 3* und *b = 4*. Die Nebenbedingungen sind wie folgt definiert:
 
-![Diagramm]({{ site.baseurl }}/assets/images/lp_zero.png)
-
->Folgend bekommen wir diese Ergebnisse.
-{: .info }
-
-![Diagramm]({{ site.baseurl }}/assets/images/lp_one.png)
-![Diagramm]({{ site.baseurl }}/assets/images/lp_ergänzen.png)
-
->Nun erhöhen wir beispielsweise den Wert von a über die zulässige Erhöhung von 5,01, um zu untersuchen, wie sich die optimale Lösung verändert. 
->Dabei bleiben alle anderen Parameter unverändert; lediglich der Wert von a wird von 3 auf 9 angepasst.
-{: .info }
-
-![Diagramm]({{ site.baseurl }}/assets/images/lp_three.png)
-
->Wenn wir alles vergleich, entstehen diese Abbildungen. 
->Die optimale Lösung verändert sich, da die zulässige Erhöhung überschritten wurde.
-{: .info }
-
-![Diagramm]({{ site.baseurl }}/assets/images/lp_diagramm.png)
-
->Zum Vergleich erhöhen wir den Startwert von a = 3 nun innerhalb der zulässigen Erhöhung von 5,01.
->Alle anderen Parameter bleiben unverändert; lediglich a wird von 3 auf 8 angepasst.
-{: .info }
-
-![Diagramm]({{ site.baseurl }}/assets/images/lp_vergleich_one.png)
-
->Das Diagramm zeigt, wie erwartet, dass sich die optimale Lösung nicht ändert:
->Zwar variiert der Profit, das Produktionsvolumen bleibt jedoch konstant.
-{: .info }
-
-![Diagramm]({{ site.baseurl }}/assets/images/lp_vergleich_two.png)
-
-### Technologien
-
-- **Jupyter Notebook:** Interaktive Ausführung und Visualisierung der Analysen.
-- **Python:** Implementierung der Optimierungsmodelle und Sensitivitätsanalysen.
-- **Optimierungsbibliotheken:** Einsatz moderner Bibliotheken (z.B. PuLP oder ähnliche), um das lineare Programm zu lösen.
+- \(1 \cdot a \leq 40\)  
+- \(1 \cdot b \leq 60\)  
+- \(2 \cdot a + 1 \cdot b \leq 100\)
 
 ---
 
-Diese Arbeit unterstreicht, wie mathematische Optimierung in Verbindung mit Sensitivitätsanalysen dazu beitragen kann, fundierte Entscheidungen in dynamischen und unsicheren Umfeldern zu treffen.
+![LP Zero]({{ site.baseurl }}/assets/images/lp_zero.png)
+
+Basierend auf diesen Parametern ergibt sich eine erste optimale Lösung:
 
 ---
 
-## 📧 Kontakt
+![LP One]({{ site.baseurl }}/assets/images/lp_one.png)
+![LP Ergänzen]({{ site.baseurl }}/assets/images/lp_ergänzen.png)
+
+Nun erhöhen wir den Wert von *a* deutlich – von 3 auf 9 – also über die zulässige Toleranz von 5,01 hinaus. Alle übrigen Parameter bleiben unverändert. Ziel ist es, zu analysieren, wie sich diese Änderung auf das Ergebnis auswirkt.
+
+---
+
+![LP Drei]({{ site.baseurl }}/assets/images/lp_three.png)
+
+Die Abbildungen zeigen: Durch die Überschreitung der zulässigen Erhöhung verändert sich die optimale Lösung sichtbar.
+
+---
+
+![Diagramm Vergleich]({{ site.baseurl }}/assets/images/lp_diagramm.png)
+
+Zum Vergleich wird *a* nun lediglich von 3 auf 8 erhöht – innerhalb der zulässigen Schwankungsbreite. Die restlichen Parameter bleiben gleich.
+
+---
+
+![Vergleich Eins]({{ site.baseurl }}/assets/images/lp_vergleich_one.png)
+
+Hier zeigt sich: Die Struktur der optimalen Lösung bleibt stabil. Zwar steigt der Profit, das Produktionsvolumen bleibt jedoch konstant.
+
+---
+
+![Vergleich Zwei]({{ site.baseurl }}/assets/images/lp_vergleich_two.png)
+
+
+---
+
+## Technologien
+
+- **Jupyter Notebook** – interaktive Analyseumgebung
+- **Python** – Implementierung der Modelle und Analysen
+- **Optimierungsbibliotheken** – u.a. *PuLP* zur Lösung linearer Programme
+
+---
+
+Diese Arbeit zeigt, wie mithilfe mathematischer Optimierung und gezielter Sensitivitätsanalysen robuste Entscheidungen auch unter Unsicherheit fundiert getroffen werden können.
+
+---
+
+## Kontakt
+
 Falls Sie Fragen haben oder mehr erfahren möchten, können Sie mich gerne kontaktieren:
- 
-> {: .info }
-[![Email](https://img.shields.io/badge/-lenz.nayon@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lenz.nayon@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/-Nayon%20Lenz%20-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/nayon-lenz-92792530b)
+
+[![Email](https://img.shields.io/badge/-lenz.nayon@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white "E-Mail senden")](mailto:lenz.nayon@gmail.com)  
+[![LinkedIn](https://img.shields.io/badge/-Nayon%20Lenz%20-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nayon-lenz-92792530b/)  
 [![GitHub](https://img.shields.io/badge/-@Nayon0505-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nayon0505)
 
---- 
+---
 
-Vielen Dank für's Anschauen!
+**Vielen Dank für Ihr Interesse!**
