@@ -21,7 +21,7 @@ nav_order: 1
 
 
 
-## 🚀 Projektübersicht
+## Projektübersicht
 
 **Kurzbeschreibung:**
 
@@ -38,7 +38,7 @@ Link zur Seite hier: <a href="https://nayon0505.github.io/FeelSave-Infoseite/"> 
 - Diskrete Bedienung durch langen Tastendruck
 - Automatisierte Standortübermittlung an Vertrauenskontakt
 
-## 🎯 Problem & Zielgruppe
+## Problem & Zielgruppe
 
 * **Problem:** Viele Menschen wissen nicht, wie sie sich in akuten negativen Gefühls­ausbrüchen selbst helfen können.
 * **Zielgruppe:** Jugendliche und junge Erwachsene (16–30 Jahre), die an Stress- oder Angstsymptomen leiden.
@@ -139,11 +139,11 @@ Das Info Popup ist ein ganz einfacher Dialog, den ich mit der Klassw *InfoDialog
 
 
 
-## 🧰 Tech Stack
+## Tech Stack
 
  **Der Code ist nach MVC (Model, View, Controller) strukturiert.**
 
-## 🛠 Sprachen, Frameworks & IDEs
+## Sprachen, Frameworks & IDEs
 
 | Kategorie            | Verwendete Tools    |
 | -------------------- | ------------------- |
@@ -175,13 +175,13 @@ Das Info Popup ist ein ganz einfacher Dialog, den ich mit der Klassw *InfoDialog
 
 
 
-## 📂 Code
+## Code
 
 * **GitHub:** [https://github.com/Nayon0505/feelsave](https://github.com/Nayon0505/feelsave)
 
 ---
 
-## 📧 Kontakt
+## Kontakt
 Falls Sie Fragen haben oder mehr erfahren möchten, können Sie mich gerne kontaktieren:
  
 > {: .info }
