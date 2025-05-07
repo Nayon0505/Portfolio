@@ -24,7 +24,6 @@ Zudem entwickelten 3 meiner Komolitonen und ich eine Infoseite für FeelSave mit
 Link zur Seite hier: <a href="https://nayon0505.github.io/FeelSave-Infoseite/"> FeelSave/Info </a>
 
 
-![Beschreibung des GIFs]()
 
 <video 
   src="{{ '/assets/videos/safemode_feelsave.mp4' | relative_url }}" 
@@ -33,12 +32,11 @@ Link zur Seite hier: <a href="https://nayon0505.github.io/FeelSave-Infoseite/"> 
   muted 
   playsinline 
   controls
-  style="max-width: 100%; height: auto;"
+  style="max-width: 60%; height: auto;"
 >
   Dein Browser unterstützt das Video-Tag nicht.
 </video>
-assets\videos\safemode_feelsave.mp4
-<video 
+<!-- <video 
   src="{{ site.baseurl }}/assets/videos/safemode_feelsave.mp4" 
   autoplay 
   loop 
@@ -48,7 +46,7 @@ assets\videos\safemode_feelsave.mp4
   style="max-width: 100%; height: auto;"
 >
   Dein Browser unterstützt das Video-Tag nicht.
-</video>
+</video> -->
 
 
 ---
