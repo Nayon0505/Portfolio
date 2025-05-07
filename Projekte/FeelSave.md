@@ -131,13 +131,13 @@ Das Info Popup ist ein ganz einfacher Dialog, den ich mit der Klassw *InfoDialog
   <img src="{{ site.baseurl }}/assets/images/FeelsaveAblaufdiagramm.png" alt="Diagramm" style="height: auto; width: 800px;">
 
 
-{: .label .label-green }
+
 
 > ##### TIP
 >
 > Mit "Strg +" können Sie ranzoomen
 
-{: .block-tip }
+{: .info }
 
 
 
