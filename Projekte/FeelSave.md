@@ -14,16 +14,50 @@ nav_order: 0
 
 <div style="display: flex; align-items: center; gap: 20px;">
   <h1>FeelSave</h1>
-  <img src="{{ site.baseurl }}/assets/images/Icon_MountainKeys.png" alt="Icon" style="height: 80px; width: auto;">
+  <img src="{{ site.baseurl }}/assets/images/feelsave_transp.png" alt="Icon" style="height: 80px; width: auto;">
 </div>
 
-FeelSave wurde von mir im Rahmen eines meiner Kurse entwickelt. Die Android App, porgrammiet mit Java und XML bietet eine Sicherheitslösung für Menschen, die beispielsweise oft in der Nacht oder in abgelegenen Orten unterwegs sind. Die ,,unfair advantage" also, das heraustechende an der App ist der Button, welcher gedrückt werden kann sobald man sich unsicher fühlt. Man hält diesen Button fest und sobald etwas passiert und der Button losgelassen wird treten Schutzmechanismen ein. (Standorttracking, Notrufe usw.) Im folgendem Teil erläuter ich die Software. 
+
+
+## 🚀 Projektübersicht
+
+**Kurzbeschreibung:**
+
+FeelSave wurde von mir im Rahmen eines meiner Kurse entwickelt. Die Android-App, programmiert mit Java und XML, bietet eine Sicherheitslösung für Menschen, die beispielsweise oft in der Nacht oder in abgelegenen Orten unterwegs sind. Die „unfair advantage“ der App ist ein Button, den man gedrückt hält, sobald man sich unsicher fühlt. Lässt man den Button los, treten automatische Schutzmechanismen wie Standort-Tracking und Notrufe in Kraft.
 
 Zudem entwickelten 3 meiner Komolitonen und ich eine Infoseite für FeelSave mithilfe von HTML, CSS, Bootstrap und JavaScript.
 
 Link zur Seite hier: <a href="https://nayon0505.github.io/FeelSave-Infoseite/"> FeelSave/Info </a>
 
 
+**Value Proposition:**
+
+- Sofortige Aktivierung von Notfallprozessen bei Gefahr
+- Diskrete Bedienung durch langen Tastendruck
+- Automatisierte Standortübermittlung an Vertrauenskontakt
+
+## 🎯 Problem & Zielgruppe
+
+* **Problem:** Viele Menschen wissen nicht, wie sie sich in akuten negativen Gefühls­ausbrüchen selbst helfen können.
+* **Zielgruppe:** Jugendliche und junge Erwachsene (16–30 Jahre), die an Stress- oder Angstsymptomen leiden.
+
+
+
+## Login
+
+<video 
+  src="{{ '/assets/videos/anmeldung_feelsave.mp4' | relative_url }}" 
+  autoplay 
+  loop 
+  muted 
+  playsinline 
+  controls
+  style="max-width: 30%; height: auto;"
+>
+  Dein Browser unterstützt das Video-Tag nicht.
+</video>
+
+## Drücken des Buttons
 
 <video 
   src="{{ '/assets/videos/safemode_feelsave.mp4' | relative_url }}" 
@@ -36,156 +70,92 @@ Link zur Seite hier: <a href="https://nayon0505.github.io/FeelSave-Infoseite/"> 
 >
   Dein Browser unterstützt das Video-Tag nicht.
 </video>
-<!-- <video 
-  src="{{ site.baseurl }}/assets/videos/safemode_feelsave.mp4" 
+
+## Kontakte hinzufügen
+
+<video 
+  src="{{ '/assets/videos/kontakte_feelsave.mp4' | relative_url }}" 
   autoplay 
   loop 
   muted 
   playsinline 
   controls
-  style="max-width: 100%; height: auto;"
+  style="max-width: 30%; height: auto;"
 >
   Dein Browser unterstützt das Video-Tag nicht.
-</video> -->
+</video>
+
+## Nachricht bearbeiten
+
+<video 
+  src="{{ '/assets/videos/nachricht_feelsave.mp4' | relative_url }}" 
+  autoplay 
+  loop 
+  muted 
+  playsinline 
+  controls
+  style="max-width: 30%; height: auto;"
+>
+  Dein Browser unterstützt das Video-Tag nicht.
+</video>
+
+## Info Popup
+
+<video 
+  src="{{ '/assets/videos/info_feelsave.mp4' | relative_url }}" 
+  autoplay 
+  loop 
+  muted 
+  playsinline 
+  controls
+  style="max-width: 30%; height: auto;"
+>
+  Dein Browser unterstützt das Video-Tag nicht.
+</video>
+
+## Ablaufdiagramm
+
+  <img src="{{ site.baseurl }}/assets/images/FeelSaveAblaufdiagramm.png" alt="Icon" style="height: 80px; width: auto;">
 
 
----
 
-## **1. App-Architektur** 📱
+## 🧰 Tech Stack
 
-**Technische Grundlagen**  
-- **Backend**  
-  besteht aus insgesammt 7 Java-Klassen 
-- **Frontend**  
-  12 XML-Layouts für responsive UI-Komponenten
-- **Integration**  
-  Firebase-Anbindung für Echtzeit-Datensynchronisation
+## 🛠 Sprachen, Frameworks & IDEs
 
-**Nutzerflow**  
-Starten der App erfordert zunächst:
-1. **Authentifizierung**  
-   Registrierung oder Login mit bestehenden Credentials
-2. **Hauptnavigation**  
-   Zugriff auf drei Kernmodule:
-   - Dashboard  (Passwort-Verwaltung)
-   - Einstellungen  
-   - Passwort-Generator 
+| Kategorie            | Verwendete Tools    |
+| -------------------- | ------------------- |
+| Programmiersprachen  | Java, XML           |
+| Datenbank | Firebase            |
+| IDE                  | Android Studio      |
 
-![Diagramm]({{ site.baseurl }}/assets/images/PasswortManager_Diagramm.jpg)
+## Bibliotheken und Plugins
 
----
-## **2. Login/Registrierung** 🔐
+| Komponente                   | Bibliothek / Plugin                                      | Verwendung / Zweck                                                    |
+| ---------------------------- | -------------------------------------------------------- | --------------------------------------------------------------------- |
+| **Android Gradle Plugin**    | `com.android.application` (AGP 8.8.0)                    | Bauen und Verpacken der Android-App                                   |
+| **Firebase Auth**            | `com.google.firebase:firebase-auth` (21.0.1)             | Benutzer-Authentifizierung und Sitzungsmanagement                    |
+| **Firebase Realtime Database** | `com.google.firebase:firebase-database` (21.0.0)        | Echtzeit-Datenspeicherung und -synchronisation                       |
+| **Google Services Plugin**   | `com.google.gms:google-services` (4.4.2)                 | Integrieren von Google- und Firebase-Diensten                         |
+| **AppCompat**                | `androidx.appcompat:appcompat` (1.7.0)                   | Abwärtskompatible Android UI-Komponenten                              |
+| **Material Design**          | `com.google.android.material:material` (1.12.0)          | Implementierung von Material Design-Komponenten                       |
+| **Activity KTX**             | `androidx.activity:activity-ktx` (1.9.2)                 | Kotlin-Extensions und Lifecycle-Unterstützung für Activities          |
+| **ConstraintLayout**         | `androidx.constraintlayout:constraintlayout` (2.1.4)     | Flexible und performante Layout-Definition                            |
+| **Play Services – Location** | `com.google.android.gms:play-services-location` (21.3.0) | Zugriff auf Standortdienste (GPS, Geofencing)                        |
+| **Play Services – Maps**     | `com.google.android.gms:play-services-maps` (19.0.0)     | Einbettung und Nutzung von Google Maps in der App                     |
+| **JUnit (Unit Tests)**       | `junit:junit` (4.13.2)                                   | Schreiben und Ausführen von Unit-Tests                                |
+| **AndroidX JUnit (Tests)**   | `androidx.test.ext:junit` (1.2.1)                        | Android-spezifische Test-Erweiterung                                 |
+| **Espresso (Tests)**         | `androidx.test.espresso:espresso-core` (3.6.1)           | UI-Tests (Interaktions- und UI-Verifikation)                          |
 
-**Authentifizierungsprozess**  
-Sicheres Anmeldesystem mit folgenden Kernfunktionen:
+**Plugins**  
+- `com.android.application` (AGP 8.8.0) – Steuert den Android-Build-Prozess  
+- `com.google.gms.google-services` (4.4.2) – Lädt die Konfiguration für Google Services  
 
-- **Anmeldung**  
-  Validierung von E-Mail und Passwort mit Dashboard-Weiterleitung bei Erfolg
-- **Fehlerbehandlung**  
-  Klare Fehlermeldungen bei ungültigen Credentials
-- **Passwort-Reset**  
-  Passwortneusetzung via E-Mail-Link möglich
 
-**Registrierungsablauf**  
-Erstellung eines neuen Benutzerkontos erfordert:
 
-1. **Pflichtangaben**  
-   Nutzername, E-Mail-Adresse und Passwort (mit Bestätigungsfeld)
-2. **Validierung**  
-   Einhaltung aller Sicherheitskriterien wird geprüft
-3. **Automatisierte Prozesse**  
-   - Kontoanlage in Firebase-Datenbank
-   - Direkte Weiterleitung zum Dashboard
-   - Versand der Verifizierungs-E-Mail
+## 📂 Code
 
-<div style="display: flex; justify-content: space-between; gap: 10px; margin: 20px 0;">
-  <img src="{{ site.baseurl }}/assets/images/login.png" alt="Login" style="width: 48%;">
-  <img src="{{ site.baseurl }}/assets/images/register.png" alt="Register" style="width: 48%;">
-</div>
-
----
-
-## **3. Dashboard** 🖥️
-
-**Zentrale Verwaltungsoberfläche**  
-Das Dashboard ermöglicht folgende Kernfunktionen für das Passwortmanagement:
-
-- 🗃️ **Wallet-Übersicht**  
-  Zentrale Anzeige aller gespeicherten Zugangsdaten
-- ➕ **Neueintrag erstellen**  
-  Hinzufügen von Benutzername/E-Mail, Website und Passwort
-- 🔍 **Suchfunktion**  
-  Schnelle Filterung durch vorhandene Einträge
-- ✏️ **Bearbeitungsoptionen**  
-  Direktes Editieren, Kopieren oder Löschen von Einträgen
-
-  **Sicherheitsfeatures**  
-- **Verschlüsselter Speicher**  
-  Passwörter werden in Firebase unter spezifischen Security Rules gespeichert
-- **Selektive Sichtbarkeit**  
-  Maskierte Passwörter werden per Klick temporär im Klartext angezeigt
-
-<div style="display: flex; justify-content: space-between; gap: 10px; margin: 20px 0;">
-  <img src="{{ site.baseurl }}/assets/images/dashboard_one.png" alt="Login" style="width: 48%;">
-  <img src="{{ site.baseurl }}/assets/images/dashboard_add_pw.png" alt="Register" style="width: 48%;">
-</div>
-
-> 🔒 **Datenisolierung**  
-> Zugriff auf gespeicherte Passwörter haben ausschließlich:  
-> - Der jeweilige Kontoinhaber  
-> - Authorisierte Administratoren  
-{: .tip }
-
----
-
-## **4. Settings** ⚙️
-
-**Benutzerkonto-Verwaltung**  
-In diesem Bereich können folgende Aktionen durchgeführt werden:
-
-- **E-Mail & Profildaten**  
-  Anzeige der registrierten E-Mail-Adresse und des Benutzernamens
-- **E-Mail-Verifizierung**  
-  Statusüberprüfung mit Möglichkeit zur erneuten Zusendung des Verifizierungslinks
-- **Passwort ändern**  
-  Sichere Passwortaktualisierung über Bestätigungsdialog
-- **Logout**  
-  Sitzungsbeendigung 
-
-<div style="display: flex; justify-content: center; margin: 20px 0;">
-  <img src="{{ site.baseurl }}/assets/images/settings_verify.png" alt="Einstellungsübersicht" style="width: 48%;" class="shadow">
-</div>
-
-> 📬 **Verifizierungsprozess**  
-> Bei Anforderung einer neuen Verifizierungs-E-Mail erhält der Nutzer diese in folgendem Format:
-{: .info }
-
-![Beispiel Verifizierungs-E-Mail]({{ site.baseurl }}/assets/images/settings_verify_email.png){: .border }
-
----
-
-## **5. Passwort Generator** 🔐
-
-**Individuelle Passworterstellung**  
-Erzeugen Sie sichere Passwörter nach Maß mit folgenden Konfigurationsoptionen:
-
-- **Zeichentyp-Auswahl**  
-  Kombination aus Groß-/Kleinbuchstaben, Zahlen und Sonderzeichen
-- **Optionale Komponenten**  
-  Einzelne Charaktergruppen per Toggle aktivierbar
-- **Längenvorgabe**  
-  Flexible Einstellung der Passwortlänge (8-16 Zeichen)
-
-**Workflow-Optimierungen**  
-- **Echtzeit-Generierung**  
-  Sofortige Anzeige des erstellten Passworts
-- **Ein-Klick-Kopierfunktion**  
-  Direkte Übernahme in die Zwischenablage
-
-<div style="display: flex; justify-content: space-between; gap: 10px; margin: 20px 0;">
-  <img src="{{ site.baseurl }}/assets/images/pw_generator_one.png" alt="Login" style="width: 48%;">
-  <img src="{{ site.baseurl }}/assets/images/pw_generator_two.png" alt="Register" style="width: 48%;">
-</div>
+* **GitHub:** [https://github.com/Nayon0505/feelsave](https://github.com/dein-username/feelsave)
 
 ---
 
