@@ -27,15 +27,17 @@ Link zur Seite hier: <a href="https://nayon0505.github.io/FeelSave-Infoseite/"> 
 ![Beschreibung des GIFs]()
 
 <video 
-  src="{{ site.baseurl }}/assets/images/safemode_feelsave.mp4" 
+  src="{{ '/assets/images/safemode_feelsave.mp4' | relative_url }}" 
   autoplay 
   loop 
   muted 
   playsinline 
+  controls
   style="max-width: 100%; height: auto;"
 >
   Dein Browser unterstützt das Video-Tag nicht.
 </video>
+
 
 ---
 
