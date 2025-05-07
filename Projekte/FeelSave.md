@@ -48,6 +48,8 @@ Link zur Seite hier: <a href="https://nayon0505.github.io/FeelSave-Infoseite/"> 
 
 ## Login
 
+Für den Login nutze ich firebaseauth und habe dafür Klassen Userauth und u.a. FirebaseHelper geschrieben
+
 <video 
   src="{{ '/assets/videos/anmeldung_feelsave.mp4' | relative_url }}" 
   autoplay 
@@ -61,6 +63,8 @@ Link zur Seite hier: <a href="https://nayon0505.github.io/FeelSave-Infoseite/"> 
 </video>
 
 ## Drücken des Buttons
+
+Die Logik hierfür findet in Klasse Buttonhelper statt. Diese Klasse steuert die ganze Applikation und dient somit als *Controller*.
 
 <video 
   src="{{ '/assets/videos/safemode_feelsave.mp4' | relative_url }}" 
@@ -76,6 +80,8 @@ Link zur Seite hier: <a href="https://nayon0505.github.io/FeelSave-Infoseite/"> 
 
 ## Kontakte hinzufügen
 
+Für das speichern von Kontakten legte ich ein Datenmodel *Kontakt* an um und nutzte Firebase zur speicherung. 
+
 <video 
   src="{{ '/assets/videos/kontakte_feelsave.mp4' | relative_url }}" 
   autoplay 
@@ -90,6 +96,8 @@ Link zur Seite hier: <a href="https://nayon0505.github.io/FeelSave-Infoseite/"> 
 
 ## Nachricht bearbeiten
 
+Die Klasse *EmergencyMessage* stellt hier die Notfallnachricht dar. Es gibt eine Standartgemäße, die beim erstellen der Instanz gesetzt wird. Zudem enthält die Klasse Methoden zum ändern (set) und lesen (get).
+
 <video 
   src="{{ '/assets/videos/nachricht_feelsave.mp4' | relative_url }}" 
   autoplay 
@@ -103,6 +111,8 @@ Link zur Seite hier: <a href="https://nayon0505.github.io/FeelSave-Infoseite/"> 
 </video>
 
 ## Info Popup
+
+Das Info Popup ist ein ganz einfacher Dialog, den ich mit der Klassw *InfoDialogHelper* live *erstelle* und dann wieder *zerstöre*
 
 <video 
   src="{{ '/assets/videos/info_feelsave.mp4' | relative_url }}" 
@@ -120,9 +130,16 @@ Link zur Seite hier: <a href="https://nayon0505.github.io/FeelSave-Infoseite/"> 
 
   <img src="{{ site.baseurl }}/assets/images/FeelsaveAblaufdiagramm.png" alt="Diagramm" style="height: auto; width: 800px;">
 
+> ##### TIP
+>
+> Mit "Strg +" können Sie ranzoomen
+
+{: .block-tip }
 
 
 ## 🧰 Tech Stack
+
+#### **Der Code ist nach MVC (Model, View, Controller) strukturiert.**
 
 ## 🛠 Sprachen, Frameworks & IDEs
 
