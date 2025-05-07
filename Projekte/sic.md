@@ -1,5 +1,5 @@
 ---
-title: SIC! - Sustainable Innovation Checker
+title: SIC! - Sustainable Innovation Checker - Fullstack Flask App
 nav_order: 2
 ---
 

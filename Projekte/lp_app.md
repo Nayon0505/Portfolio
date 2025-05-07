@@ -1,5 +1,5 @@
 ---
-title: LP Sensitivity Analysis Interface
+title: LP Sensitivity Analysis Interface - Python
 nav_order: 4
 ---
 

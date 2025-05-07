@@ -1,5 +1,5 @@
 ---
-title: Maschine Learning Model - Fluganbieter
+title: Machine Learning Model - Fluganbieterrezensionen
 nav_order: 3
 ---
 
