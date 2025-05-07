@@ -13,7 +13,6 @@ nav_order: 0
 ---
 
 <div style="display: flex; align-items: center; gap: 20px;">
-  <h1>FeelSave</h1>
 <img 
   src="{{ site.baseurl }}/assets/images/feelsavelogo.png" 
   alt="Feelsave Logo" 
@@ -119,7 +118,7 @@ Link zur Seite hier: <a href="https://nayon0505.github.io/FeelSave-Infoseite/"> 
 
 ## Ablaufdiagramm
 
-  <img src="{{ site.baseurl }}/assets/images/FeelsaveAblaufdiagramm.png" alt="Diagramm" style="height: auto; width: 400px;">
+  <img src="{{ site.baseurl }}/assets/images/FeelsaveAblaufdiagramm.png" alt="Diagramm" style="height: auto; width: 800px;">
 
 
 
