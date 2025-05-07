@@ -16,6 +16,11 @@ nav_order: 4
 
 Dieses Projekt beschäftigt sich mit der Sensitivitätsanalyse von linearen Optimierungsmodellen. In einem interaktiven Jupyter-Notebook wird veranschaulicht, wie sich kleine Änderungen an Parametern – insbesondere an den Koeffizienten der Zielfunktion und Nebenbedingungen – auf die optimale Lösung eines linearen Programms auswirken.
 
+👉 Das Projekt wird detailliert im Notebook beschrieben. Das vollständige Projekt ist auf GitHub verfügbar:
+
+[![Github](https://img.shields.io/badge/-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://github.com/Nayon0505/Sensitivity-analysis-GUI-with-Python)
+
+
 ---
 
 ## Projektinhalte

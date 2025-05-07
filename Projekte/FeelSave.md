@@ -191,4 +191,4 @@ Falls Sie Fragen haben oder mehr erfahren möchten, können Sie mich gerne konta
 
 --- 
 
-Vielen Dank für's Anschauen meines Projektes!
+**Vielen Dank für Ihr Interesse!**

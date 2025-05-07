@@ -156,4 +156,4 @@ Bei Rückfragen oder Interesse an weiteren Informationen stehe ich gerne zur Ver
 
 ---
 
-Vielen Dank für Ihr Interesse an unserem Projekt!
+**Vielen Dank für Ihr Interesse!**
