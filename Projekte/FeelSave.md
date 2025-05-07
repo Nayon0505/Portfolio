@@ -32,7 +32,7 @@ Link zur Seite hier: <a href="https://nayon0505.github.io/FeelSave-Infoseite/"> 
   muted 
   playsinline 
   controls
-  style="max-width: 60%; height: auto;"
+  style="max-width: 30%; height: auto;"
 >
   Dein Browser unterstützt das Video-Tag nicht.
 </video>
