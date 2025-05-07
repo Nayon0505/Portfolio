@@ -45,7 +45,8 @@ Die Anwendung soll Betrieben helfen, kritische Compliance-Anforderungen effizien
   playsinline 
   controls
   style="max-width: 100%; height: auto;"
->
+>   Dein Browser unterstützt das Video-Tag nicht.
+
 </video>
 
 <!-- ![Diagramm]({{ site.baseurl }}/assets/images/sic_one.png)
@@ -64,7 +65,8 @@ Die Anwendung soll Betrieben helfen, kritische Compliance-Anforderungen effizien
   playsinline 
   controls
   style="max-width: 100%; height: auto;"
->
+>  Dein Browser unterstützt das Video-Tag nicht.
+
 </video>
 
 >Ist ein Nutzer angemeldet, hat er zugriff auf "seinen Bereich", hier werden die Ergebnisse durchgeführter Tests abgespeichert und können jederzeit abgerufen werden.
@@ -78,7 +80,8 @@ Die Anwendung soll Betrieben helfen, kritische Compliance-Anforderungen effizien
   playsinline 
   controls
   style="max-width: 100%; height: auto;"
->
+>  Dein Browser unterstützt das Video-Tag nicht.
+
 </video>
 
 <!-- ![Diagramm]({{ site.baseurl }}/assets/images/sic_six.png) -->
@@ -99,7 +102,8 @@ Die Anwendung soll Betrieben helfen, kritische Compliance-Anforderungen effizien
   playsinline 
   controls
   style="max-width: 100%; height: auto;"
->
+>  Dein Browser unterstützt das Video-Tag nicht.
+
 </video>
 
 <video 
@@ -110,7 +114,8 @@ Die Anwendung soll Betrieben helfen, kritische Compliance-Anforderungen effizien
   playsinline 
   controls
   style="max-width: 100%; height: auto;"
->
+>  Dein Browser unterstützt das Video-Tag nicht.
+
 </video>
 
 >Nach vollständiger Beantwortung aller Fragen bewertet das System die Eingaben mittels eines Ampelsystems (Grün/Gelb/Rot).
