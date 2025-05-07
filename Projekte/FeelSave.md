@@ -118,12 +118,8 @@ Link zur Seite hier: <a href="https://nayon0505.github.io/FeelSave-Infoseite/"> 
 </video>
 
 ## Ablaufdiagramm
-<img 
-  src="{{ site.baseurl }}/assets/images/FeelsaveAblaufdiagramm.png" 
-  alt="Diagramm" 
-  style="width: 200px; height: auto;"
->
 
+  <img src="{{ site.baseurl }}/assets/images/FeelsaveAblaufdiagramm.png" alt="Diagramm" style="height: auto; width: 400px;">
 
 
 
