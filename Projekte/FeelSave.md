@@ -135,6 +135,8 @@ Das Info Popup ist ein ganz einfacher Dialog, den ich mit der Klassw *InfoDialog
 > Mit "Strg +" können Sie ranzoomen
 
 {: .block-tip }
+{: .label .label-green }
+
 
 
 ## 🧰 Tech Stack
