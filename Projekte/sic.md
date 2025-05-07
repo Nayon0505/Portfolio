@@ -36,19 +36,76 @@ Die Anwendung soll Betrieben helfen, kritische Compliance-Anforderungen effizien
 >Während der Schnelltest sofort verfügbar ist, erfordert der detaillierte Test eine vorherige Registrierung/Anmeldung.
 {: .info }
 
-![Diagramm]({{ site.baseurl }}/assets/images/sic_one.png)
-![Diagramm]({{ site.baseurl }}/assets/images/sic_two.png)
+
+<video 
+  src="{{ '/assets/videos/startseitesic.mp4' | relative_url }}" 
+  autoplay 
+  loop 
+  muted 
+  playsinline 
+  controls
+  style="max-width: 30%; height: auto;"
+>
+
+<!-- ![Diagramm]({{ site.baseurl }}/assets/images/sic_one.png)
+![Diagramm]({{ site.baseurl }}/assets/images/sic_two.png) -->
+
+
+>Hier kann sich der Nutzer anmelden oder registrieren. Die Eingabe wird mit den Daten der SQLAlchemy Datenbank abgeglichen und bewertet. Falls der Nutzer existiert bekommt der Nutzer eine Meldung.
+{: .info }
+
+
+<video 
+  src="{{ '/assets/videos/startseitesic.mp4' | relative_url }}" 
+  autoplay 
+  loop 
+  muted 
+  playsinline 
+  controls
+  style="max-width: 30%; height: auto;"
+>
+
 
 >Ist ein Nutzer angemeldet, hat er zugriff auf "seinen Bereich", hier werden die Ergebnisse durchgeführter Tests abgespeichert und können jederzeit abgerufen werden.
 {: .info }
 
-![Diagramm]({{ site.baseurl }}/assets/images/sic_six.png)
+<video 
+  src="{{ '/assets/videos/meinbereichsic.mp4' | relative_url }}" 
+  autoplay 
+  loop 
+  muted 
+  playsinline 
+  controls
+  style="max-width: 30%; height: auto;"
+>
+
+<!-- ![Diagramm]({{ site.baseurl }}/assets/images/sic_six.png) -->
 
 >Die Tests sehen teils wie folgt aus.
 {: .info }
 
-![Diagramm]({{ site.baseurl }}/assets/images/sic_three.png)
-![Diagramm]({{ site.baseurl }}/assets/images/sic_four.png)
+<!-- ![Diagramm]({{ site.baseurl }}/assets/images/sic_three.png)
+![Diagramm]({{ site.baseurl }}/assets/images/sic_four.png) -->
+
+<video 
+  src="{{ '/assets/videos/schnelltestsic.mp4' | relative_url }}" 
+  autoplay 
+  loop 
+  muted 
+  playsinline 
+  controls
+  style="max-width: 30%; height: auto;"
+>
+
+<video 
+  src="{{ '/assets/videos/detailtestsic.mp4' | relative_url }}" 
+  autoplay 
+  loop 
+  muted 
+  playsinline 
+  controls
+  style="max-width: 30%; height: auto;"
+>
 
 >Nach vollständiger Beantwortung aller Fragen bewertet das System die Eingaben mittels eines Ampelsystems (Grün/Gelb/Rot).
 >Diese visuelle Auswertung ermöglicht Nutzern eine klare Einschätzung des Status quo ihres Unternehmens in puncto Steuertransparenz.
@@ -57,8 +114,8 @@ Die Anwendung soll Betrieben helfen, kritische Compliance-Anforderungen effizien
 >- Empfehlungen zur Verbesserung der Steuercompliance
 {: .info }
 
-![Diagramm]({{ site.baseurl }}/assets/images/sic_five.png)
-![Diagramm]({{ site.baseurl }}/assets/images/sic_seven.png)
+<!-- ![Diagramm]({{ site.baseurl }}/assets/images/sic_five.png)
+![Diagramm]({{ site.baseurl }}/assets/images/sic_seven.png) -->
 
 ---
 
