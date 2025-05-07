@@ -136,7 +136,6 @@ Das Info Popup ist ein ganz einfacher Dialog, den ich mit der Klassw *InfoDialog
 > ##### TIP
 >
 > Mit "Strg +" können Sie ranzoomen
-
 {: .info }
 
 
