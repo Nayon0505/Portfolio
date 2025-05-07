@@ -64,7 +64,7 @@ Nutzerinnen und Nutzer können sich registrieren und anschließend anmelden. Die
 {: .info }
 
 <video 
-  src="{{'/assets/videos/loginsic.mp4' | relative_url }}" 
+  src="{{ '/assets/videos/loginsic.mp4' | relative_url }}" 
   autoplay 
   loop 
   muted 
