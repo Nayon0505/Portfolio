@@ -138,6 +138,10 @@ Das Info Popup ist ein ganz einfacher Dialog, den ich mit der Klassw *InfoDialog
 > Mit "Strg +" können Sie ranzoomen
 {: .info }
 
+>Die Startseite der Anwendung präsentiert Nutzern zwei Testvarianten: einen Schnelltest und einen ausführlichen Test.
+>Während der Schnelltest sofort verfügbar ist, erfordert der detaillierte Test eine vorherige Registrierung/Anmeldung.
+{: .info }
+
 
 
 ## 🧰 Tech Stack
