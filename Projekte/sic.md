@@ -83,6 +83,8 @@ Die Testmodule bestehen aus einfachen Frageblöcken zur steuerlichen Transparenz
 
 {: .info }
 
+#### Schnelltest
+
 <video 
   src="{{ '/assets/videos/schnelltestsic.mp4' | relative_url }}" 
   autoplay 
@@ -93,6 +95,8 @@ Die Testmodule bestehen aus einfachen Frageblöcken zur steuerlichen Transparenz
   style="max-width: 100%; height: auto;">
   Ihr Browser unterstützt das Video-Tag nicht.
 </video>
+
+#### Ausführlicher Test
 
 <video 
   src="{{ '/assets/videos/detailtestsic.mp4' | relative_url }}" 
