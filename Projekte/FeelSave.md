@@ -38,6 +38,18 @@ Link zur Seite hier: <a href="https://nayon0505.github.io/FeelSave-Infoseite/"> 
   Dein Browser unterstützt das Video-Tag nicht.
 </video>
 
+<video 
+  src="{{ site.baseurl }}/assets/videos/safemode_feelsave.mp4" 
+  autoplay 
+  loop 
+  muted 
+  playsinline 
+  controls
+  style="max-width: 100%; height: auto;"
+>
+  Dein Browser unterstützt das Video-Tag nicht.
+</video>
+
 
 ---
 
