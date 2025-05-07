@@ -177,7 +177,7 @@ Das Info Popup ist ein ganz einfacher Dialog, den ich mit der Klassw *InfoDialog
 
 ## Code
 
-* **GitHub:** [https://github.com/Nayon0505/feelsave](https://github.com/Nayon0505/feelsave)
+[![Github](https://img.shields.io/badge/-GitHub%20Pages-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nayon0505/feelsave)
 
 ---
 
