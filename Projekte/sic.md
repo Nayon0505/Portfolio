@@ -76,24 +76,6 @@ Nutzerinnen und Nutzer können sich registrieren und anschließend anmelden. Die
 
 ---
 
-### Benutzerbereich
-
-Nach dem Login erhalten Nutzerinnen und Nutzer Zugang zu ihrem persönlichen Bereich. Dort sind alle bisherigen Testergebnisse gespeichert und können jederzeit eingesehen oder erneut abgerufen werden.
-
-{: .info }
-
-<video 
-  src="{{ '/assets/videos/meinbereichsic.mp4' | relative_url }}" 
-  autoplay 
-  loop 
-  muted 
-  playsinline 
-  controls
-  style="max-width: 100%; height: auto;">
-  Ihr Browser unterstützt das Video-Tag nicht.
-</video>
-
----
 
 ### Tests und Auswertung
 
@@ -131,6 +113,26 @@ Zusätzlich lässt sich ein **individueller PDF-Bericht** generieren, der Folgen
 - Empfehlungen zur Optimierung der Steuercompliance
 
 {: .info }
+
+---
+
+
+### Benutzerbereich
+
+Nach dem Login erhalten Nutzerinnen und Nutzer Zugang zu ihrem persönlichen Bereich. Dort sind alle bisherigen Testergebnisse gespeichert und können jederzeit eingesehen oder erneut abgerufen werden.
+
+{: .info }
+
+<video 
+  src="{{ '/assets/videos/meinbereichsic.mp4' | relative_url }}" 
+  autoplay 
+  loop 
+  muted 
+  playsinline 
+  controls
+  style="max-width: 100%; height: auto;">
+  Ihr Browser unterstützt das Video-Tag nicht.
+</video>
 
 ---
 
