@@ -53,6 +53,17 @@ Die Startseite der Anwendung bietet zwei verschiedene Testvarianten:
   Ihr Browser unterstützt das Video-Tag nicht.
 </video>
 
+<video 
+  src="{{ '/assets/videos/loginsic.mp4' | relative_url }}" 
+  autoplay 
+  loop 
+  muted 
+  playsinline 
+  controls
+  style="max-width: 100%; height: auto;">
+  Ihr Browser unterstützt das Video-Tag nicht.
+</video>
+
 ---
 
 ### Anmeldung und Registrierung
