@@ -1,5 +1,5 @@
 ---
-title: Passwort manager
+title: FeelSave
 parent: Projekte
 nav_order: 0
 ---
@@ -13,13 +13,29 @@ nav_order: 0
 ---
 
 <div style="display: flex; align-items: center; gap: 20px;">
-  <h1>Passwort Manager</h1>
+  <h1>FeelSave</h1>
   <img src="{{ site.baseurl }}/assets/images/Icon_MountainKeys.png" alt="Icon" style="height: 80px; width: auto;">
 </div>
 
-Der Name des Passwort Managers lautet MountanKey (natürlich wird Berg im Englischen anders geschrieben), 
-im Rahmen des Modules App Entwicklung mit Android, habe ich dieses Projekt bearbeitet.
-In den Folgenden abschnitten bekommen Sie einen kleinen Einblick.
+FeelSave wurde von mir im Rahmen eines meiner Kurse entwickelt. Die Android App, porgrammiet mit Java und XML bietet eine Sicherheitslösung für Menschen, die beispielsweise oft in der Nacht oder in abgelegenen Orten unterwegs sind. Die ,,unfair advantage" also, das heraustechende an der App ist der Button, welcher gedrückt werden kann sobald man sich unsicher fühlt. Man hält diesen Button fest und sobald etwas passiert und der Button losgelassen wird treten Schutzmechanismen ein. (Standorttracking, Notrufe usw.) Im folgendem Teil erläuter ich die Software. 
+
+Zudem entwickelten 3 meiner Komolitonen und ich eine Infoseite für FeelSave mithilfe von HTML, CSS, Bootstrap und JavaScript.
+
+Link zur Seite hier: <a href="https://nayon0505.github.io/FeelSave-Infoseite/"> FeelSave/Info </a>
+
+
+![Beschreibung des GIFs]()
+
+<video 
+  src="{{ site.baseurl }}/assets/images/safemode_feelsave.mp4" 
+  autoplay 
+  loop 
+  muted 
+  playsinline 
+  style="max-width: 100%; height: auto;"
+>
+  Dein Browser unterstützt das Video-Tag nicht.
+</video>
 
 ---
 
@@ -165,9 +181,9 @@ Erzeugen Sie sichere Passwörter nach Maß mit folgenden Konfigurationsoptionen:
 Falls Sie Fragen haben oder mehr erfahren möchten, können Sie mich gerne kontaktieren:
  
 > {: .info }
-[![Email](https://img.shields.io/badge/-aniloeker@hotmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aniloeker@hotmail.com)
-[![LinkedIn](https://img.shields.io/badge/-Anil%20Emircan%20Öker-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anil-emircan-öker-a2878430a)
-[![GitHub](https://img.shields.io/badge/-@Emircan1122-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Emircan1122)
+[![Email](https://img.shields.io/badge/-lenz.nayon@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lenz.nayon@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/-Nayon%20Lenz%20-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/nayon-lenz-92792530b)
+[![GitHub](https://img.shields.io/badge/-@Nayon0505-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nayon0505)
 
 --- 
 

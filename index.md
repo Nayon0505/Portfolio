@@ -3,13 +3,14 @@ title: Home
 nav_order: 0
 ---
 
-# Anil's Portfolio
-#### Wirtschaftsinformatik Student and der Hochschule für Wirtschaft und Recht Berlin 
+# Nayon's Portfolio
 
 ---
 
 🌐 **Willkommen in meinem digitalen Portfolio!**  
-Ich bin ein leidenschaftlicher Student der Wirtschaftsinformatik im 5. Semester. Mein Fokus liegt auf Cybersecurity-Lösungen und software engineering. Hier dokumentiere ich meine Lernreise, Projekte und berufliche Entwicklung.
+Ich bin Entwickler mit besonderem Interresse an KI, Robotik und Backend/Fullstack Webdevelopement. 
+
+In diesem Portfolio gebe ich einen Einblick in meine Projekte.
 
 ---
 
@@ -33,9 +34,9 @@ Ich bin ein leidenschaftlicher Student der Wirtschaftsinformatik im 5. Semester.
 Falls Sie Fragen haben oder mehr erfahren möchten, können Sie mich gerne kontaktieren:
  
 > {: .info }
-[![Email](https://img.shields.io/badge/-aniloeker@hotmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aniloeker@hotmail.com)
-[![LinkedIn](https://img.shields.io/badge/-Anil%20Emircan%20Öker-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anil-emircan-öker-a2878430a)
-[![GitHub](https://img.shields.io/badge/-@Emircan1122-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Emircan1122)
+[![Email](https://img.shields.io/badge/-lenz.nayon@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lenz.nayon@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/-Nayon%20Lenz%20-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/nayon-lenz-92792530b)
+[![GitHub](https://img.shields.io/badge/-@Nayon0505-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nayon0505)
 
 --- 
 
