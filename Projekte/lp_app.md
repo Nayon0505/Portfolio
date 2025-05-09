@@ -18,7 +18,8 @@ Dieses Projekt beschäftigt sich mit der Sensitivitätsanalyse von linearen Opti
 
 👉 Das Projekt wird detailliert im Notebook beschrieben. Das vollständige Projekt ist auf GitHub verfügbar:
 
-[![Github](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nayon0505/Sensitivity-analysis-GUI-with-Python)
+[![Github](https://img.shields.io/badge/-GitHub -181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nayon0505/Sensitivity-analysis-GUI-with-Python)
+{: .attention }
 
 
 ---

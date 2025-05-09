@@ -21,6 +21,7 @@ Ziel war die Entwicklung eines Prognosemodells zur Vorhersage künftiger Kundenz
 👉 Das vollständige Projekt ist auf Kaggle verfügbar:
 
 [![Kaggle](https://img.shields.io/badge/-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/code/nayon0505/airline-passenger-satisfaction1/notebook)
+{: .attention }
 
 ---
 
