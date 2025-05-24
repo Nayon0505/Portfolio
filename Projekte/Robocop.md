@@ -267,6 +267,16 @@ Aufbauend auf den derzeitigen Prototypens entwickelten wir ein Python Programm m
   style="max-width: 100%; height: auto;">
   Ihr Browser unterstützt das Video-Tag nicht.
 </video>
+<video 
+  src="{{'/assets/videos/team.mp4' | relative_url }}" 
+  autoplay 
+  loop 
+  muted 
+  playsinline 
+  controls
+  style="max-width: 100%; height: auto;">
+  Ihr Browser unterstützt das Video-Tag nicht.
+</video>
 
 *Test im Kurs*
 
