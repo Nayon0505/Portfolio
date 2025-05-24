@@ -244,6 +244,8 @@ Aufbauend auf den derzeitigen Prototypens entwickelten wir ein Python Programm m
 
 *Snippet aus der System Demo aus dem PI 2 vor dem ganzem Team*
 
+
+
 <video 
   src="{{'/assets/videos/demo1.mp4' | relative_url }}" 
   autoplay 
@@ -257,6 +259,8 @@ Aufbauend auf den derzeitigen Prototypens entwickelten wir ein Python Programm m
 
 *Unser Team*
 
+
+
 <video 
   src="{{'/assets/videos/team.mp4' | relative_url }}" 
   autoplay 
@@ -267,21 +271,14 @@ Aufbauend auf den derzeitigen Prototypens entwickelten wir ein Python Programm m
   style="max-width: 100%; height: auto;">
   Ihr Browser unterstützt das Video-Tag nicht.
 </video>
-<video 
-  src="{{'/assets/videos/team.mp4' | relative_url }}" 
-  autoplay 
-  loop 
-  muted 
-  playsinline 
-  controls
-  style="max-width: 100%; height: auto;">
-  Ihr Browser unterstützt das Video-Tag nicht.
-</video>
+
 
 *Test im Kurs*
 
+
+
 <video 
-  src="{{'/assets/videos/imkurstestblured.mp4' | relative_url }}" 
+  src="{{'/assets/videos/team.mp4' | relative_url }}" 
   autoplay 
   loop 
   muted 
@@ -290,6 +287,8 @@ Aufbauend auf den derzeitigen Prototypens entwickelten wir ein Python Programm m
   style="max-width: 100%; height: auto;">
   Ihr Browser unterstützt das Video-Tag nicht.
 </video>
+
+
 
 <details>
 <summary>facerecognize.py</summary>
