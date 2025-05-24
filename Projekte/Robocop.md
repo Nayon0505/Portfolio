@@ -71,14 +71,14 @@ Vollständige Dokumentation, System Demos nach jedem PI (Programm Increment - Ä
 
 ## Mein Team - Person Identification
 
-<img src="../assets/images/team.png" alt="Team" style="max-width: 100%; height: auto;" />
+<img src="../assets/images/team.png" alt="Team" style="max-width: 50%; height: auto;" />
 
 
 Durch mein großes Interesse in KI, gelang ich in das Team Person-Identification, in welchem ich teils Product Owner und Team Coach war. Unsere Aufgabe war es den Roboter "sehen" zu lassen und ihn zwischen bekannten und unbekannten Personen zu unterscheiden. Bei der Erkennung einer nicht zugeordneten Person werden automatisch vordefinierte Sicherheitsprotokolle aufgerufen. Durch die Integration fortschrittlicher Wahrnehmungs- und Entscheidungslogik wollten wir den Roboter zu einer realistischen Sicherheitslösung weiterentwickeln.
 
 ## Erstes Prototyping (Personenerkennung) PI 1
 
-<img src="../assets/images/pi1.png" alt="Team" style="max-width: 100%; height: auto;" />
+<img src="../assets/images/pi1.png" alt="Team" style="max-width: 50%; height: auto;" />
 
 Im ersten Programm Increment begann ich mit Crossresearch um mir ein besseres Bild des Themas zu machen und setzte mich mit modernen Technologien aus dem Bereich Computer Vision, sowie Face Recognition Modellen auseinander. Ich sammelte Erfahrungen über OpenCV, verschiedenen Modellen wie Yolo, face_recognition und Frameworks wie Tensorflow und DLib.
 
@@ -86,7 +86,7 @@ Im ersten Programm Increment begann ich mit Crossresearch um mir ein besseres Bi
 Wir erstellten einen ersten Prototyp um Personen zu erkennen (Noch keine Identifizierung) mit OpenCV und Haarscascades.
 
 <video 
-  src="{{'/assets/videos/opencvprototyp.mp4' | relative_url }}" 
+  src="{{'/assets/videos/prototyp.mp4' | relative_url }}" 
   autoplay 
   loop 
   muted 
@@ -192,7 +192,7 @@ Zur Auswahl standen unter anderem  -->
 
 ## Personen Identifizierung PI 2
 
-<img src="../assets/images/pi2.png" alt="Team" style="max-width: 100%; height: auto;" />
+<img src="../assets/images/pi2.png" alt="Team" style="max-width: 50%; height: auto;" />
 
 Im zweiten PI, standen zwei Punkte im Vordergrund. Zum einen, die Auswahl geeigneter Hardware und zum anderen, die Entwicklung einer Personen Identifizierungssoftware. Wir begannen mit der Auswahl der Hardware und mussten erstmals auf zwei wichtige Komponenten achten (Später kommt der Pan tilt Hat dazu). Die Kamera und die Rechenleistung. Zentrale Herausforderungen hierbei waren Leistung des Rechenmoduls, Kameraqualttät und Kompatibilität.
 
@@ -220,13 +220,13 @@ Zur Auswahl standen:
 
 Wir entschieden uns wegen unserer hohen Leistungsansprüche für den Jetson Orin Nano von NVIDIA. Um diesen mit ROS1 Kompatibel zu machen, entschied ich mich ihn von Jetpack 6.x zu Jetpack 5.1.1 zu downzugraden, da die 5.1.1 geanu wie ROS1 auf Ubuntu 20.04 basiert.
 
-<img src="../assets/images/orin nano.png" alt="Team" style="max-width: 100%; height: auto;" />
+<img src="../assets/images/orin nano.png" alt="Team" style="max-width: 50%; height: auto;" />
 
 **Die Cam**
 
 Als nächstes mussten wir uns für eine Kamera entscheiden. Wir testeten die *vom Jetson Orin Nano nicht nativ unterstützte* PI Cam Module 3 mit IMX 708. Zu diesen Zeitpunkt war Jetpack 6.x auf dem Jetson geladen. Ich suchte Workarounds um die PI Cam V3 nutzen zu können jedoch ohne Erfolg. Ich durchsuchte Foren und versuchte es mit von der Comunity entwickelten Drivern. Ich versuchte es mit dem Driver von RidgeRun wobei ich den Jetson downgraden musste auf 5.x um diesen verwenden zu könnnen. Letztlich funktionierte die Cam auf dem Jetson, jedoch fehlte die Kompatibilität mit OpenCV. Das hätte mit Mühe auch funktionieren können, jedoch musste ich bereits eine eigene Pipeline für die Cam erstellen und sie u.A. auf 14 FPS begrenzen damit sie funktioniert. Da ich es nicht eingesehen habe mich so sehr einzuschränken, habe ich mich für die **PI Cam V2** entschieden und etwas Qualität eigebüßt. (Diese wird nativ unterstützt)
 
-<img src="../assets/images/pi cam v2.png" alt="Team" style="max-width: 100%; height: auto;" />
+<img src="../assets/images/pi cam v2.png" alt="Team" style="max-width: 50%; height: auto;" />
 
 
 ### Die Software
@@ -245,7 +245,7 @@ Aufbauend auf den derzeitigen Prototypens entwickelten wir ein Python Programm m
 *Snippet aus der System Demo aus dem PI 2 vor dem ganzem Team*
 
 <video 
-  src="{{'/assets/videos/demo.mp4' | relative_url }}" 
+  src="{{'/assets/videos/demo1' | relative_url }}" 
   autoplay 
   loop 
   muted 
@@ -258,7 +258,7 @@ Aufbauend auf den derzeitigen Prototypens entwickelten wir ein Python Programm m
 *Unser Team*
 
 <video 
-  src="{{'/assets/videos/teamtest.mp4' | relative_url }}" 
+  src="{{'/assets/videos/team.mp4' | relative_url }}" 
   autoplay 
   loop 
   muted 
