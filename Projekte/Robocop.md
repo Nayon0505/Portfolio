@@ -86,7 +86,7 @@ Im ersten Programm Increment begann ich mit Crossresearch um mir ein besseres Bi
 Wir erstellten einen ersten Prototyp um Personen zu erkennen (Noch keine Identifizierung) mit OpenCV und Haarscascades.
 
 <video 
-  src="{{'/assets/videos/prototyp.mp4' | relative_url }}" 
+  src="{{'assets\videos\prototyp.mp4' | relative_url }}"  
   autoplay 
   loop 
   muted 
@@ -245,7 +245,7 @@ Aufbauend auf den derzeitigen Prototypens entwickelten wir ein Python Programm m
 *Snippet aus der System Demo aus dem PI 2 vor dem ganzem Team*
 
 <video 
-  src="{{'/assets/videos/demo1' | relative_url }}" 
+  src="{{'/assets/videos/demo1.mp4' | relative_url }}" 
   autoplay 
   loop 
   muted 
