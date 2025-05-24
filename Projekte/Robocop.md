@@ -247,7 +247,7 @@ Aufbauend auf den derzeitigen Prototypens entwickelten wir ein Python Programm m
 
 
 <video 
-  src="{{'/assets/videos/demo1.mp4' | relative_url }}" 
+  src="{{'/assets/videos/demo.mp4' | relative_url }}" 
   autoplay 
   loop 
   muted 
@@ -278,7 +278,7 @@ Aufbauend auf den derzeitigen Prototypens entwickelten wir ein Python Programm m
 
 
 <video 
-  src="{{'/assets/videos/team.mp4' | relative_url }}" 
+  src="{{'/assets/videos/imkurstestblured.mp4' | relative_url }}" 
   autoplay 
   loop 
   muted 
