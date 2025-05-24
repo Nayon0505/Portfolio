@@ -245,7 +245,7 @@ Aufbauend auf den derzeitigen Prototypens entwickelten wir ein Python Programm m
 *Snippet aus der System Demo aus dem PI 2 vor dem ganzem Team*
 
 <video 
-  src="{{'/assets/videos/imkurstest.mp4' | relative_url }}" 
+  src="{{'/assets/videos/demo.mp4' | relative_url }}" 
   autoplay 
   loop 
   muted 
