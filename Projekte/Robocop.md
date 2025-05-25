@@ -97,7 +97,7 @@ Wir erstellten einen ersten Prototyp um Personen zu erkennen (Noch keine Identif
 </video>
 
 <details>
-<summary>facerecognize.py</summary>
+<summary>person_detection.py</summary>
 
 <pre><code class="language-python">
 import cv2
@@ -182,7 +182,7 @@ while True:
 
 stream.release()
 cv2.destroyAllWindows() 
-/code></pre>
+</code></pre>
 
 </details>         
 
