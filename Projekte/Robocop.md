@@ -97,9 +97,9 @@ Wir erstellten einen ersten Prototyp um Personen zu erkennen (Noch keine Identif
 </video>
 
 <details>
-<summary>personDetection.py</summary>
+<summary>facerecognize.py</summary>
 
-```python
+<pre><code class="language-python">
 import cv2
 
 #Wie? HaarCascades. Haarfeatures. Es wird über ein Bild gescannt und bewertet (z.B. line positive, Kreis positive) man entscheidet sich für die Features
@@ -182,8 +182,9 @@ while True:
 
 stream.release()
 cv2.destroyAllWindows() 
-```
-</details>              
+/code></pre>
+
+</details>         
 
 <!-- **Hardware**
 Zudem machte ich mir gedanken zur Hardware und erstellte einige theoretische Techstacks die wir verwenden könnten. Dabei musste ich auf die Leistung und Komptaibilität achten, da diese Art von Software sehr Anspruchsvoll ist.
@@ -288,6 +289,8 @@ Aufbauend auf den derzeitigen Prototypens entwickelten wir ein Python Programm m
   Ihr Browser unterstützt das Video-Tag nicht.
 </video>
 
+
+
 <details>
 <summary>facerecognize.py</summary>
 
@@ -299,8 +302,8 @@ import pickle
 import time
 print(cv2.__version__)
 
-fpsReport=0
-scaleFactor=.25
+fpsReport=0 # FÜr die FPS ermittlung
+scaleFactor=.25 # Wir verwenden den um änderungen im gesamten Model vorzunehmen um die FPSS zu optimieren
 Encodings=[]
 Names= []
 
@@ -309,21 +312,23 @@ with open('train.pkl', 'rb') as f:
     Encodings= pickle.load(f)
 
 font = cv2.FONT_HERSHEY_SIMPLEX
-cam = cv2.VideoCapture(0)
+#cam = cv2.VideoCapture('/dev/video6', cv2.CAP_V4L2) #Mit Droidcam übers handy
+cam = cv2.VideoCapture(0) #Mit Webcam
 
 fps = cam.get(cv2.CAP_PROP_FPS)
 width = int(cam.get(3))
 height = int(cam.get(4))
 output = cv2.VideoWriter("assets/videos/rec.mp4",
-    cv2.VideoWriter_fourcc('m', 'p', '4', 'v'),
-    fps=fps, frameSize=(width, height))
+            cv2.VideoWriter_fourcc('m', 'p', '4', 'v'),  #Video speichern
+            fps=fps, frameSize=(width, height))
 
-timeStamp = time.time()
+
+timeStamp = time.time() # Hier wird der Anfang des Loops festgehalten
 while True:
     _,frame = cam.read()
-    frameSmall = cv2.resize(frame,(0,0), fx=scaleFactor,fy=scaleFactor)
+    frameSmall = cv2.resize(frame,(0,0), fx=scaleFactor,fy=scaleFactor) # Frame kleiner machen für besser Leistung
     frameRGB= cv2.cvtColor(frameSmall, cv2.COLOR_BGR2RGB)
-    facePositions= fr.face_locations(frameRGB, model= 'cnn')
+    facePositions= fr.face_locations(frameRGB, model= 'cnn') #cnn ist ein besseres Model als das Standardmäßige HOG (Simpler und langsamer), da wir den Jetson Nano haben können wir cnn nutzen
     allEncodings = fr.face_encodings(frameRGB, facePositions)
     for(top,right,bottom,left), face_encoding in zip(facePositions,allEncodings):
         name='Unkown Person'
@@ -336,69 +341,30 @@ while True:
         bottom=int(bottom/scaleFactor)
         left=int(left/scaleFactor)
 
-        cv2.rectangle(frame,(left, top), (right, bottom), (0,0,255), 2)
+        cv2.rectangle(frame,(left, top), (right, bottom), (0,0,255), 2) #Left right in Opnecv ist die X achse und Top Bottom Y, in facerecognition ist das anders, deshalb können die Kästen falsch gezeichnet werden, wenn man es falsch macht
         cv2.putText(frame,name,(left,top-6),font, .75, (0,255,255),2)
-    dt=time.time() - timeStamp
-    fps= 1/dt
-    fpsReport=.9*fpsReport + .1*fps
+    dt=time.time() - timeStamp # Jetzt nehmen wir die jetzige Zeit - die Zeit am beginn des Loops damit wir die Differenz haben
+    fps= 1/dt # Wie viele Frames pro Sekunde, bsp: ein Frame jede 1/10 Sekunde, dann ist 1/(1/10)= 10 FPS
+    fpsReport=.9*fpsReport + .1*fps #Low pass filter, FPS sind die gemessene Frames, die ändern sich zu sehr und springen. Wir geben dem alten Report 95% Vertrauen und dem neuen 5 %. Bei zu großen Sprüngen, bleibt der Report trotdem konstant. 
+    #print('FPS: ', round(fpsReport,1))                 # Wenn die FPS hochgehen, gehen sie immer nur um 5% hoch, also wenn sie konstant oben sind, ändert sich der Report gleichmäßog und kontinuierlich
     timeStamp= time.time()
-    cv2.rectangle(frame,(0,0),(100,40),(0,0,255),-1)
+    cv2.rectangle(frame,(0,0),(100,40),(0,0,255),-1) # -1 macht das Rechteck solid
     cv2.putText(frame, str(round(fpsReport,1))+ 'fps', (0,25), font,.75, (0,255,255, 2))
     cv2.imshow('Picture', frame)
     cv2.moveWindow('Picture', 0,0)
-    output.write(frame)
+    output.write(frame) # video speichern
 
     if cv2.waitKey(1)== ord('q'):
         break
 cam.release()
 cv2.destroyAllWindows()
-</code></pre>
-
-</details>
+<
 
 
 <details>
 <summary>train.py</summary>
 
 <pre><code class="language-python">
-import pickle
-import cv2
-import face_recognition as fr
-import os
-print(cv2.__version__)
-
-TRAIN_IMAGES_PATH='assets/trainImages'
-
-Encodings= []
-Names= []
-
-image_dir= TRAIN_IMAGES_PATH
-
-for root, dirs, files in os.walk(image_dir):
-    print(files)
-    for file in files:
-        path=os.path.join(root,file)
-        print(path)
-        name= os.path.splitext(file)[0]
-        print(name)
-        person = fr.load_image_file(path)
-        encoding = fr.face_encodings(person)[0]
-        Encodings.append(encoding)
-        Names.append(name)
-print(Names)
-
-with open('train.pkl', 'wb') as f:
-    pickle.dump(Names,f)
-    pickle.dump(Encodings,f)
-</code></pre>
-
-</details>
-
-
-<details>
-<summary>train.py</summary>
-
-```python
 import pickle
 import cv2
 import face_recognition as fr
@@ -429,8 +395,10 @@ print(Names)
 with open('train.pkl', 'wb') as f: # wb steht für write bytes, f ist as Objekt auf das wir zugreifen, wenn wir unser Pickle readen oder writen wollen
     pickle.dump(Names,f)
     pickle.dump(Encodings,f)
-```
-</details>              
+</code></pre>
+
+</details>
+       
 
 
 
